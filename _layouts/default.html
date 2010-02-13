@@ -7,15 +7,14 @@
 		{% for search in page.search %}
 		<link rel="search" type="application/opensearchdescription+xml" href="{{ search.xml }}" title="{{ search.title }}" />
 		{% endfor %}
-		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>-->
-		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>-->
-		<!--<script type="text/javascript" src="custom.js"></script>-->
+		{% for js in page.javascript %}
+		<script type="text/javascript" src="{{ js }}"></script>
+		{% endfor %}
 		<link type="text/css" href="custom.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="container">
 			<h1 id="header" class="{{page.tab}}">{{ page.htitle }}</h1>
-			{% include nav.html %}
 			<div id="content" class="{{page.tab}}">
 {{ content }}
 			</div>

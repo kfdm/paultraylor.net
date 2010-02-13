@@ -2,7 +2,35 @@
 layout: default
 title: KungFuDiscoMonkey.net
 htitle: KungFuDiscoMonkey.net
-tab: one
+javascript:
+ - http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js
+ - http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js
+ - custom.js
 ---
-<p>I'm a web developer who also likes to play with assorted other programming projects.  When I'm not programming, I spend time studying Japanese.</p>
-<p>I generally work with a mix of PHP, Python, and jQuery (javascript) as my projects require.  I prefer to work on more server side code than frontend code.</p>
+<ul id="tab-nav">
+	<li class="one"><a href="#tabs-one">About</a></li>
+	<li class="two"><a href="#tabs-two">Experience</a></li>
+	<li class="three"><a href="#tabs-three">Curent Projects</a></li>
+	<li class="four"><a href="#tabs-four">Past Projects</a></li>
+	<li class="five"><a href="#tabs-five">Links</a></li>
+</ul>
+<div id="tabs-one" class="one">
+	<h3 class="one"><a href="#">About</a></h3>
+	{% include index.html %}
+</div>
+<div id="tabs-two" class="two">
+	<h3 class="two"><a href="#">Experience</a></h3>
+	{% include experience.html %}
+</div>
+<div id="tabs-three" class="three">
+	<h3 class="three"><a href="#">Current</a></h3>
+	{% include current.html %}
+</div>
+<div id="tabs-four" class="four">
+	<h3 class="four"><a href="#">Past</a></h3>
+	{% include past.html %}
+</div>
+<div id="tabs-five" class="five">
+	<h3 class="five"><a href="#">Links</a></h3>
+	{% include links.html %}
+</div>

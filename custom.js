@@ -53,3 +53,11 @@ function setTargetObj(color) {
 function tab_click(event,ui) {
 	setTargetObj($(ui.tab).css('color'));
 }
+
+$(document).ready(function(){
+	$("#content").tabs({select: tab_click});
+	var color = $('div#content li:random').css('color');
+	$('#header').css('color',color);
+	$('#footer').css('color',color);
+	setTargetObj(color);
+});

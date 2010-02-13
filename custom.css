@@ -1,3 +1,11 @@
+---
+colors:
+ - {name: "one", value: "#7f7" }
+ - {name: "two", value: "#9bf" }
+ - {name: "three", value: "#fc0" }
+ - {name: "four", value: "#f77" }
+ - {name: "five", value: "#868" }
+---
 body { background-color:#fff; color:#000; font-family: Verdana; }
 div#footer { font-size:1em; text-align: right; }
 
@@ -11,32 +19,11 @@ ul#tab-nav li {
 
 h3 { outline: black; }
 
-.one a {color:#7f7; text-decoration: none;}
-.one h4 a { color:#000; text-decoration: underline; }
-h3.one {color:#7f7; background-color:#fff;}
-h3.one:hover {color:#fff; background-color:#7f7;}
-h3.one:hover a {color:#fff; background-color:#7f7;}
-
-.two a {color:#9bf; text-decoration: none;}
-.two h4 a { color:#000; text-decoration: underline; }
-h3.two  {color:#9bf; background-color:#fff;}
-h3.two:hover {color:#fff; background-color:#9bf;}
-h3.two:hover a {color:#fff; background-color:#9bf;}
-
-.three a {color:#fc0; text-decoration: none;}
-.three h4 a { color:#000; text-decoration: underline; }
-h3.three {color:#fc0; background-color:#fff;}
-h3.three:hover {color:#fff; background-color:#fc0;}
-h3.three:hover a {color:#fff; background-color:#fc0;}
-
-.four a {color:#f77; text-decoration: none;}
-.four h4 a { color:#000; text-decoration: underline; }
-h3.four {color:#f77; background-color:#fff;}
-h3.four:hover {color:#fff; background-color:#f77;}
-h3.four:hover a {color:#fff; background-color:#f77;}
-
-.five a {color:#868; text-decoration: none;}
-.five h4 a { color:#000; text-decoration: underline; }
-h3.five {color:#868; background-color:#fff;}
-h3.five:hover {color:#fff; background-color:#868;}
-h3.five:hover a {color:#fff; background-color:#868;}
+{% for color in page.colors %}
+.{{ color.name }} a {color:{{ color.value}}; text-decoration: none;}
+.{{ color.name }} h4 a {color:#000; background-color:#fff}
+h3.{{ color.name }} a {color:{{ color.value}}; text-decoration: none;}
+h3.{{ color.name }}:hover {color:#fff; background-color:{{ color.value}}; }
+h3.{{ color.name }}:hover a {color:#fff; background-color:{{ color.value}}; }
+ul#tab-nav li.{{ color.name }} a {color:{{ color.value}} !important; text-decoration: none;}
+{% endfor %}
