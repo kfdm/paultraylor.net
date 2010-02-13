@@ -3,6 +3,12 @@ div#footer { font-size:1em; text-align: right; }
 
 #container {background-color:#fff;padding:2em;margin:1em;max-width:600px;margin-right:auto;margin-left:auto;}
 
+ul#tab-nav li {
+	list-style:none;
+	display: inline;
+}
+.ui-tabs .ui-tabs-hide { display: none; }
+
 h3 { outline: black; }
 
 .one a {color:#7f7; text-decoration: none;}

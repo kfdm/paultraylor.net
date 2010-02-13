@@ -4,21 +4,22 @@
 		<title>{{ page.title }}</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name="robots" content="noarchive" />
-		<link rel="search" type="application/opensearchdescription+xml" href="search/tokyotosho_all.xml" title="TokyoToshokan - All" />
-		<link rel="search" type="application/opensearchdescription+xml" href="search/tokyotosho_anime.xml" title="TokyoToshokan - Anime" />
-		<link rel="search" type="application/opensearchdescription+xml" href="search/kasi_time_song.xml" title="歌詞タイム - 曲名" />
-		<link rel="search" type="application/opensearchdescription+xml" href="search/kasi_time_singer.xml" title="歌詞タイム - 歌手" />
-		<script type="text/javascript" src="jquery.min.js"></script>
-		<script type="text/javascript" src="custom.js"></script>
+		{% for search in page.search %}
+		<link rel="search" type="application/opensearchdescription+xml" href="{{ search.xml }}" title="{{ search.title }}" />
+		{% endfor %}
+		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>-->
+		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>-->
+		<!--<script type="text/javascript" src="custom.js"></script>-->
 		<link type="text/css" href="custom.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="container">
-			<h1 id="header">{{ page.header }}</h1>
-			<div>
+			<h1 id="header" class="{{page.tab}}">{{ page.htitle }}</h1>
+			{% include nav.html %}
+			<div id="content" class="{{page.tab}}">
 {{ content }}
 			</div>
-			<div id="footer">Copyright &copy; Paul Traylor 2004-2009</div>
+			<div id="footer" class="{{page.tab}}">Copyright &copy; Paul Traylor 2004-2010</div>
 		</div>
 	</body>
 </html>
