@@ -35,9 +35,8 @@ function updateColors() {
 	if(b!=tb) b = (b<tb)?b+bd:b-bd;
 
 	var color = 'rgb('+r+','+g+','+b+')';
-	$('body').css('background-color',color);
-	$('#header').css('color',color);
-	$('#footer').css('color',color);
+	$('.fg-color').css('color',color);
+	$('.bg-color').css('background-color',color);
 	if((r==tr)&&(g==tg)&&(b==tb)) {
 		$(document).stopTime();
 	}
@@ -55,9 +54,10 @@ function tab_click(event,ui) {
 }
 
 $(document).ready(function(){
+	$('a.top').hide();
 	$("#content").tabs({select: tab_click});
 	var color = $('div#content li:random').css('color');
-	$('#header').css('color',color);
-	$('#footer').css('color',color);
+	$('.fg-color').css('color',color);
+	$('.bg-color').css('background-color',color);
 	setTargetObj(color);
 });

@@ -12,13 +12,14 @@
 		{% endfor %}
 		<link type="text/css" href="custom.css" rel="stylesheet" />
 	</head>
-	<body>
-		<div id="container">
-			<h1 id="header" class="{{page.tab}}">{{ page.htitle }}</h1>
+	<body class="bg-color">
+		<a name="top"></a>
+		<div id="container" class="round">
+			<div id="header" class="{{page.tab}} round bg-color"><h1>{{ page.htitle }}</h1></div>
 			<div id="content" class="{{page.tab}}">
 {{ content }}
 			</div>
-			<div id="footer" class="{{page.tab}}">Copyright &copy; Paul Traylor 2004-2010</div>
+			<div id="footer" class="{{page.tab}} round bg-color">Copyright &copy; Paul Traylor 2004-2010</div>
 		</div>
 	</body>
 </html>

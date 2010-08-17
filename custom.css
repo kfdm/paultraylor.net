@@ -7,9 +7,16 @@ colors:
  - {name: "five", value: "#868" }
 ---
 body { background-color:#fff; color:#000; font-family: Verdana; }
-div#footer { font-size:1em; text-align: right; }
-
+#header { background-color: #000; color: #fff;}
+#footer { background-color: #000; color: #fff; font-size:1em; text-align: right; }
 #container {background-color:#fff;padding:2em;margin:1em;max-width:600px;margin-right:auto;margin-left:auto;}
+h1 {font-size:1.5em;}
+
+.round {
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	padding:0.1em 0.5em;
+}
 
 ul#tab-nav li {
 	list-style:none;
@@ -21,7 +28,7 @@ h3 { outline: black; }
 
 {% for color in page.colors %}
 .{{ color.name }} a {color:{{ color.value}}; text-decoration: none;}
-.{{ color.name }} h4 a {color:#000; background-color:#fff}
+.{{ color.name }} h4 a {color:#000; }
 h3.{{ color.name }} a {color:{{ color.value}}; text-decoration: none;}
 h3.{{ color.name }}:hover {color:#fff; background-color:{{ color.value}}; }
 h3.{{ color.name }}:hover a {color:#fff; background-color:{{ color.value}}; }
