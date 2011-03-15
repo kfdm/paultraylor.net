@@ -4,9 +4,9 @@
 		<title>{{ page.title }}</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name="robots" content="noarchive" />
-		<link href="http://kungfudiscomonkey.net/atom.xml" rel="alternate" title="KungFuDiscoMonkey.net" type="application/atom+xml" />
+		<link href="{{ site.url }}/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
 		{% for search in page.search %}
-		<link rel="search" type="application/opensearchdescription+xml" href="{{ search.xml }}" title="{{ search.title }}" />
+		<link rel="search" type="application/opensearchdescription+xml" href="{{ site.url }}/{{ search.xml }}" title="{{ search.title }}" />
 		{% endfor %}
 		{% for js in page.javascript %}
 		<script type="text/javascript" src="{{ js }}"></script>
