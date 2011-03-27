@@ -27,6 +27,7 @@ ul#tab-nav li {
 h3 { outline: black; }
 
 {% for color in page.colors %}
+.bg-{{ color.name }} {background-color:{{ color.value }};}
 .{{ color.name }} a {color:{{ color.value}}; text-decoration: none;}
 .{{ color.name }} h4 a {color:#000; }
 h3.{{ color.name }} a {color:{{ color.value}}; text-decoration: none;}
