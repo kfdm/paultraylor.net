@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-	<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-	<ShortName>歌詞タイム - 歌手</ShortName>
-	<Url type="text/html" template="http://www.kasi-time.com/search.php?keyword={searchTerms}&amp;cat_index=uta" />
-	<Language>jp</Language>
-	<InputEncoding>EUC-JP</InputEncoding>
-	<Image height="16" width="16" type="image/x-icon">http://kfdm.github.com/search/uta.ico</Image>
-</OpenSearchDescription>
