@@ -2,4 +2,4 @@ PERSONAL SITE
 =============
 [view](http://kungfudiscomonkey.net)
 
-Powered by [jekyll](http://github.com/mojombo/jekyll) and [GitHub](http://github.com/)
+Powered by [jekyll](https://github.com/mojombo/jekyll) and [GitHub](https://github.com/)
