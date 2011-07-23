@@ -8,6 +8,9 @@ Wrote an implementation of the [Growl Notification Transport Protocol](http://ww
 #### [Python library for TheHitList](https://github.com/kfdm/thehitlist)
 Provides a python library to access [The Hit List](http://www.potionfactory.com/thehitlist/) through appscript's python to apple script bridge.  Currently in its early stages.  Will eventually be used to provide a method of importing entries from task trackers such as Piviotal Tracker or dates from Google Calendar and convert them into tasks.
 
+#### [Python IRC Bot](https://github.com/kfdm/purplebot)
+Used within my channel on GameSurge, I wrote an irc bot from scratch using python.
+
 #### Misc scripts
 I've written various other scripts.  For irssi I've written [irssi-nohilite](https://github.com/kfdm/irssi-nohilight) and
 [irssi-growl](https://github.com/kfdm/irssi-growl) by hacking together a bit of perl code.
