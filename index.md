@@ -7,7 +7,7 @@ I'm a web developer who also likes to play with assorted other programming proje
 
 I generally work with a mix of PHP, Python, and jQuery (javascript) as my projects require.  I prefer to work on more server side code than frontend code.
 
-## Other Sites
+## Around the Web
 
 * [LinkedIn](http://www.linkedin.com/in/PaulTraylor)
 * [GitHub](http://github.com/kfdm/)
