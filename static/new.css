@@ -13,9 +13,6 @@ body {
 	margin-right: 0em;
 }
 
-section#content {
-	padding: 0em 2em;
-}
 header#head {
 	margin: 0em;
 	font-weight: bold !important;
@@ -40,7 +37,7 @@ nav li a {
 nav li {
 	list-style:none;
 	display: table-cell;
-	padding: 0.5em 0.5em 0.1em;
+	padding: 0.5em 0.5em 0.01em;
 }
 
 header nav {
@@ -53,8 +50,33 @@ footer {
 	padding: 0.25em;
 }
 
+/* Content */
+#content h1 {
+	font-size:2.5em;
+	margin: 0em;
+	border-bottom: solid thick;
+	text-decoration: none !important;
+}
+#content h2 {
+	font-size: 1.5em;
+	margin: 0em;
+	border-bottom: solid thick;
+	text-decoration: none !important;
+}
+#content a {
+	color: #000;
+	font-weight: bold;
+}
+#content {
+	padding: 0em 2em;
+}
+
+/* Colors */
+nav li.zero a { color: #000;}
 {% for color in page.colors %}
 header.{{ color.name }} nav { border-color: {{ color.value }}; }
 header nav li.{{ color.name }} { background-color: {{ color.value }}; }
-section#content.{{ color.name }} a {color:{{ color.value}}; text-decoration: none;}
+section#content.{{ color.name }} h1 { color: {{ color.value }} !important; }
+section#content.{{ color.name }} h2 { color: {{ color.value }} !important; }
+section#content.{{ color.name }} h2 a { color: {{ color.value }}; text-decoration: none; }
 {% endfor %}
