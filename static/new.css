@@ -1,10 +1,10 @@
 ---
 colors:
  - {name: "one", value: "#7f7" }
- - {name: "two", value: "#9bf" }
- - {name: "three", value: "#fc0" }
- - {name: "four", value: "#f77" }
- - {name: "five", value: "#868" }
+ - {name: "two", value: "#868" }
+ - {name: "three", value: "#9bf" }
+ - {name: "four", value: "#fc0" }
+ - {name: "five", value: "#f77" }
 ---
 
 body {
@@ -16,11 +16,16 @@ body {
 section#content {
 	padding: 0em 2em;
 }
+header#head {
+	margin: 0em;
+	font-weight: bold !important;
+	font-family: Sans-serif !important;
+	text-decoration: none !important;
+}
 
 nav li h1 {
 	display: inline;
 	font-size:1em;
-	margin: 0em;
 }
 
 nav ul {
@@ -44,14 +49,12 @@ header nav {
 }
 
 footer {
-	border-top: solid thick;
 	text-align: right;
 	padding: 0.25em;
 }
 
 {% for color in page.colors %}
 header.{{ color.name }} nav { border-color: {{ color.value }}; }
-footer.{{ color.name }} { border-color: {{ color.value }}; }
 header nav li.{{ color.name }} { background-color: {{ color.value }}; }
 section#content.{{ color.name }} a {color:{{ color.value}}; text-decoration: none;}
 {% endfor %}
