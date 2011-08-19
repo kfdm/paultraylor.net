@@ -2,9 +2,9 @@
 layout: new
 color: two
 ---
-## Expierence
+# Experience
 
-### [WeGame.com](http://www.wegame.com/)
+## [WeGame.com](http://www.wegame.com/)
 
 March 2008 - Present
 
@@ -18,7 +18,7 @@ I currently work for WeGame.com where my primary responsibility is web developme
 
 Tools Used: PHP, Python, FFMpeg, jQuery, SphinxSE
 
-### [Department of Soil Science - North Carolina State University](http://www.soil.ncsu.edu/)
+## [Department of Soil Science - North Carolina State University](http://www.soil.ncsu.edu/)
 
 May 2005 - August 2007
 
@@ -29,7 +29,7 @@ While studying Computer Science at North Carolina State University, I worked for
 * Updated and maintained department and faculty web sites (php, mysql)
 
 
-### [Department of Computer Science - North Carolina State University](http://www.csc.ncsu.edu/)
+## [Department of Computer Science - North Carolina State University](http://www.csc.ncsu.edu/)
 
 August 2005 - December 2007
 
