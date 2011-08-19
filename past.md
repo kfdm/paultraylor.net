@@ -1,5 +1,5 @@
 ---
-layout: alt
+layout: new
 color: four
 ---
 

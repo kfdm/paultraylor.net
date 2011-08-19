@@ -1,6 +1,7 @@
 ---
-layout: alt
+layout: new
 color: one
+title: KungFuDiscoMonkey.net
 ---
 ## About
 I'm a web developer who also likes to play with assorted other programming projects.  When I'm not programming, I spend time studying Japanese.

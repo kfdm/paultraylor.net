@@ -1,0 +1,57 @@
+---
+colors:
+ - {name: "one", value: "#7f7" }
+ - {name: "two", value: "#9bf" }
+ - {name: "three", value: "#fc0" }
+ - {name: "four", value: "#f77" }
+ - {name: "five", value: "#868" }
+---
+
+body {
+	padding-top: 2em;
+	margin-left: 0em;
+	margin-right: 0em;
+}
+
+section#content {
+	padding: 0em 2em;
+}
+
+nav li h1 {
+	display: inline;
+	font-size:1em;
+	margin: 0em;
+}
+
+nav ul {
+	padding: 0em 1em;
+	margin: 0em;	
+}
+
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+nav li {
+	list-style:none;
+	display: table-cell;
+	padding: 0.5em 0.5em 0.1em;
+}
+
+header nav {
+	border-bottom: solid thick;
+	padding: 0em;
+}
+
+footer {
+	border-top: solid thick;
+	text-align: right;
+	padding: 0.25em;
+}
+
+{% for color in page.colors %}
+header.{{ color.name }} nav { border-color: {{ color.value }}; }
+footer.{{ color.name }} { border-color: {{ color.value }}; }
+header nav li.{{ color.name }} { background-color: {{ color.value }}; }
+section#content.{{ color.name }} a {color:{{ color.value}}; text-decoration: none;}
+{% endfor %}

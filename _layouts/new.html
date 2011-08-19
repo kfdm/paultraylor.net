@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>{{ page.title }}</title>
+		<meta name="robots" content="noarchive" />
+		<link href="{{ site.url }}/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+		<link type="text/css" href="/static/new.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header id="head" class="{{page.color}}">
+			<nav>
+				<ul id="tab-nav">
+					<li><h1>{{ site.title }}</h1></li>
+					<li class="one"><a href="/index.html">About</a></li>
+					<li class="two"><a href="/experience.html">Experience</a></li>
+					<li class="three"><a href="/current.html">Curent Projects</a></li>
+					<li class="four"><a href="/past.html">Past Projects</a></li>
+					<li class="five"><a href="/future.html">Future Projects</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="content" class="{{page.tab}} {{page.color}}">
+{{ content }}
+		</section>
+		<footer class="{{page.color}}">Copyright &copy; Paul Traylor 2004-2011</footer>
+	</body>
+</html>
