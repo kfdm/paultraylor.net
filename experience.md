@@ -1,6 +1,7 @@
 ---
 layout: new
 color: two
+title: Experience
 ---
 # Experience
 

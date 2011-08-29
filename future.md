@@ -1,8 +1,9 @@
 ---
 layout: new
 color: five
+title: Future Ideas
 ---
-# Future Project Ideas
+# Future
 
 Various projects that I may want to work on at some time in the future.
 

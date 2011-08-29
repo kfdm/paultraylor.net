@@ -1,8 +1,9 @@
 ---
 layout: new
 color: three
+title: Current Projects
 ---
-# Current Projects
+# Current
 
 Projects that are mostly current (or at least recently updated)
 

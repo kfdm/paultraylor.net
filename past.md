@@ -1,9 +1,10 @@
 ---
 layout: new
 color: four
+title: Past Projects
 ---
 
-# Older projects
+# Past
 
 Assorted interesting bits that helped get me to where I am today
 
