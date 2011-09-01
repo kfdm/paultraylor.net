@@ -1,11 +1,11 @@
 ---
 width: "962px"
 colors:
- - {name: "one", value: "#99BBFF" }
- - {name: "two", value: "#868" }
- - {name: "three", value: "#4E8BA8" }
- - {name: "four", value: "#B1E39D" }
- - {name: "five", value: "#D6A3B2" }
+ - {name: "about", value: "#99BBFF" }
+ - {name: "experience", value: "#868" }
+ - {name: "current", value: "#4E8BA8" }
+ - {name: "past", value: "#B1E39D" }
+ - {name: "future", value: "#D6A3B2" }
 ---
 /****************************
 	Main

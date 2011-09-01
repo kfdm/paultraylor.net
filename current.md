@@ -1,6 +1,6 @@
 ---
 layout: new
-color: three
+section: current
 title: Current Projects
 ---
 # Current

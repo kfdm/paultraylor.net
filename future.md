@@ -1,6 +1,6 @@
 ---
 layout: new
-color: five
+section: future
 title: Future Ideas
 ---
 # Future

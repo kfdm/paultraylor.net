@@ -1,6 +1,6 @@
 ---
 layout: new
-color: one
+section: about
 title: KungFuDiscoMonkey.net
 ---
 # About

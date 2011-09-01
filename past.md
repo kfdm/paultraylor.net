@@ -1,6 +1,6 @@
 ---
 layout: new
-color: four
+section: past
 title: Past Projects
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: new
-color: two
+section: experience
 title: Experience
 ---
 # Experience
