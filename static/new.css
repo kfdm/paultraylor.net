@@ -7,6 +7,9 @@ colors:
  - {name: "four", value: "#B1E39D" }
  - {name: "five", value: "#D6A3B2" }
 ---
+/****************************
+	Main
+****************************/
 html {
 	background-color: #d5d2cb;
 	height: 100%;
@@ -22,35 +25,31 @@ body {
 	min-width: {{ page.width }} ;
 	width: {{ page.width }} ;
 }
-
+/****************************
+	Header
+****************************/
 header#head h1 {
 	padding: 5px;
 	display: inline;
 }
-
 header#head div span {
 	float:right;
 }
-
 header#head div {
 	border-bottom: solid thin;
 	border-color: white;
 }
-
 header#head nav{
 	position: relative;
 	float:right;
 	padding:0em;
 	top:-1px;
 }
-
 span#social{
 	padding: 0.25em 0.5em;
 	vertical-align:bottom;
 	margin-top: 0.25em;
 }
-
-
 header#head {
 	margin: 0em;
 	font-weight: bold !important;
@@ -61,24 +60,17 @@ header#head {
 	min-width: {{ page.width }} ;
 	width: {{ page.width }} ;
 }
-
-section#content {
-	padding: 2em 0em;
-	height: 100%;
-	padding: 0em 2em;
-	border-right: 1px solid #bdbab3;
-}
-
+/****************************
+	Navigation
+****************************/
 nav li h1 {
 	display: inline;
 	font-size:1em;
 }
-
 nav ul {
 	padding: 0px;
 	margin: 0px 50px 0px 0px;
 }
-
 nav li a {
 	color: #FFFFFF;
 	text-decoration: none;
@@ -91,26 +83,18 @@ nav li {
 	border-right: 2px solid;
 	border-color: white;
 }
-
 nav li:first {
 	border-left: thick solid;
 }
-
-footer {
-	text-indent: 0.25em;
-	text-align: right;
-	position: fixed;
-	bottom:0px;
-	max-width: {{ page.width }};
-	min-width: {{ page.width }};
-	width: {{ page.width }};
-	height: 20px;
-	min-height: 20px;
-	max-height: 20px;
-	color: white;
+/****************************
+	Content
+****************************/
+section#content {
+	padding: 2em 0em;
+	height: 100%;
+	padding: 0em 2em;
+	border-right: 1px solid #bdbab3;
 }
-
-/* Content */
 #content h1 {
 	font-size:2.5em;
 	margin: 0em;
@@ -127,9 +111,25 @@ footer {
 	color: #000;
 	font-weight: bold;
 }
-
-/* Colors */
-nav li.zero a { color: #000;}
+/****************************
+	Footer
+****************************/
+footer {
+	text-indent: 0.25em;
+	text-align: right;
+	position: fixed;
+	bottom:0px;
+	max-width: {{ page.width }};
+	min-width: {{ page.width }};
+	width: {{ page.width }};
+	height: 20px;
+	min-height: 20px;
+	max-height: 20px;
+	color: white;
+}
+/****************************
+	Colors
+****************************/
 {% for color in page.colors %}
 header#head.{{ color.name }} div { background-color: {{ color.value }};}
 header.{{ color.name }} nav ul { border-color: {{ color.value }}; }
