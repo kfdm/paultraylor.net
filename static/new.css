@@ -55,10 +55,6 @@ header#head {
 /****************************
 	Navigation
 ****************************/
-nav li h1 {
-	display: inline;
-	font-size:1em;
-}
 nav ul {
 	padding: 0px;
 	margin: 0px 50px 0px 0px;
@@ -72,11 +68,10 @@ nav li {
 	display: table-cell;
 	padding: 5px 5px 5px;
 	font-size:10pt;
-	border-right: 2px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
 	border-color: white;
-}
-nav li:first {
-	border-left: thick solid;
 }
 /****************************
 	Content
