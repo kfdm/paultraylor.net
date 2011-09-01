@@ -25,14 +25,8 @@ body {
 /****************************
 	Header
 ****************************/
-header#head h1 {
-	padding: 10px;
-	display: inline;
-}
-header#head div span {
-	float:right;
-}
 header#head div {
+	padding: 10px;
 	border-bottom: solid thin;
 	border-color: white;
 }
@@ -43,6 +37,7 @@ header#head nav{
 	top:-1px;
 }
 span#social{
+	float:right;
 	padding: 0.25em 0.5em;
 	vertical-align:bottom;
 	margin-top: 0.25em;
