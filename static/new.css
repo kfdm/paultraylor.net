@@ -14,22 +14,19 @@ html {
 	background-color: #d5d2cb;
 	height: 100%;
 }
-
 body {
-	margin-left: 0em;
-	padding-top: 2em;
-	height: 100%;
+	min-height: 100%;
+	margin: 0px;
 	font-family: "Lucida Grande", Arial, sans-serif;
 	background-color: white;
-	max-width: {{ page.width }} ;
-	min-width: {{ page.width }} ;
+	border-right: 1px solid #bdbab3;
 	width: {{ page.width }} ;
 }
 /****************************
 	Header
 ****************************/
 header#head h1 {
-	padding: 5px;
+	padding: 10px;
 	display: inline;
 }
 header#head div span {
@@ -90,12 +87,11 @@ nav li:first {
 	Content
 ****************************/
 section#content {
-	padding: 2em 0em;
-	height: 100%;
-	padding: 0em 2em;
-	border-right: 1px solid #bdbab3;
+	padding-left: 20px;
+	padding-bottom: 12pt;
 }
 #content h1 {
+	padding-top:50px;
 	font-size:2.5em;
 	margin: 0em;
 	border-bottom: solid thick;
