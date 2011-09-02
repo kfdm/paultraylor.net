@@ -1,17 +1,18 @@
 ---
-width: "962px"
+body_width: 962px
+banner_width: 963px
 colors:
- - {name: "about", value: "#99BBFF" }
- - {name: "experience", value: "#868" }
- - {name: "current", value: "#4E8BA8" }
- - {name: "past", value: "#B1E39D" }
- - {name: "future", value: "#D6A3B2" }
+ - {name: "about", value: "#6989BC" }
+ - {name: "experience", value: "#2E7682" }
+ - {name: "past", value: "#6C2B4B" }
+ - {name: "current", value: "#8D355F" }
+ - {name: "future", value: "#C06D89" }
 ---
 /****************************
 	Main
 ****************************/
 html {
-	background-color: #d5d2cb;
+	background-color: #D5D2CB;
 	height: 100%;
 }
 body {
@@ -20,21 +21,18 @@ body {
 	font-family: "Lucida Grande", Arial, sans-serif;
 	background-color: white;
 	border-right: 1px solid #bdbab3;
-	width: {{ page.width }} ;
+	width: {{ page.body_width }} ;
 }
 /****************************
 	Header
 ****************************/
 header#head div {
 	padding: 10px;
-	border-bottom: solid thin;
-	border-color: white;
 }
 header#head nav{
 	position: relative;
 	float:right;
 	padding:0em;
-	top:-1px;
 }
 span#social{
 	float:right;
@@ -48,9 +46,7 @@ header#head {
 	text-decoration: none !important;
 	position:fixed;
 	top:0em;
-	max-width: {{ page.width }} ;
-	min-width: {{ page.width }} ;
-	width: {{ page.width }} ;
+	width: {{ page.banner_width }} ;
 }
 /****************************
 	Navigation
@@ -105,9 +101,7 @@ footer {
 	text-align: right;
 	position: fixed;
 	bottom:0px;
-	max-width: {{ page.width }};
-	min-width: {{ page.width }};
-	width: {{ page.width }};
+	width: {{ page.banner_width }};
 	height: 20px;
 	min-height: 20px;
 	max-height: 20px;
