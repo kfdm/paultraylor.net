@@ -1,26 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-	<head profile="http://a9.com/-/spec/opensearch/1.1/">
-		<title>{{ page.title }}</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<meta name="robots" content="noarchive" />
-		{% for search in page.search %}
-		<link rel="search" type="application/opensearchdescription+xml" href="{{ search.xml }}" title="{{ search.title }}" />
-		{% endfor %}
-		{% for js in page.javascript %}
-		<script type="text/javascript" src="{{ js }}"></script>
-		{% endfor %}
-		<link type="text/css" href="/static/custom.css" rel="stylesheet" />
-		<link type="text/css" href="/static/syntax.css" rel="stylesheet" />
-	</head>
-	<body class="bg-color">
-		<a name="top"></a>
-		<div id="container" class="round">
-			<div id="header" class="{{page.tab}} round bg-color"><h1>{{ page.htitle }}</h1></div>
-			<div id="content" class="{{page.tab}}">
+---
+layout: new
+section: about
+---
+<article>
+<h1>{{ page.title | titlecase }}</h1>
 {{ content }}
-			</div>
-			<div id="footer" class="{{page.tab}} round bg-color">Copyright &copy; Paul Traylor 2004-2011</div>
-		</div>
-	</body>
-</html>
+</article>
