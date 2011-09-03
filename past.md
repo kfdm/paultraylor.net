@@ -14,7 +14,9 @@ Started in the later part of my senior year of High School, I wrote a PHP framew
 
 ## 2D Game Engine - <span>C#</span>
 
-Started after graduation from North Carolina State University, I wrote the beginnings of a [2D game engine](http://www.wegame.com/view/murasaki/) in C# to become more familiar with the language and tools.
+Started after graduation from North Carolina State University, I wrote the beginnings of a [2D game engine](https://github.com/kfdm/murasaki) in C# to become more familiar with the language and tools.
+
+[ ![Muraski](/images/murasaki.thumb.png) ](/images/murasaki.png "Murasaki Screenshot")
 
 ## ns_altair - Natural-Selection (Game)
 
