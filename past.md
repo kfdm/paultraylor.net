@@ -22,6 +22,11 @@ Started after graduation from North Carolina State University, I wrote the begin
 
 Built a level for the game [Natural-Selection](http://www.unknownworlds.com/ns/) which was eventually accepted and released as part of the game.
 
+[![Hive room](/images/hiveroom.thumb.jpg)](/images/hiveroom.jpg "Hive Room")
+[![Marine Start](/images/marinestart.thumb.jpg)](/images/marinestart.jpg "Marine Start")
+[![Pump Room](/images/pump.thumb.jpg)](/images/pump.jpg "Pump Room")
+[![Curved Walkway](/images/walkway.thumb.jpg)](/images/walkway.jpg "Curved Walkway")
+
 ## zp_eastside - Zombie Panic! (Game)
 
 Built a level for the game [ZombiePanic!](http://www.zombiepanic.org/) using the eastside texture set from
