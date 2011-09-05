@@ -31,3 +31,6 @@ Built a level for the game [Natural-Selection](http://www.unknownworlds.com/ns/)
 
 Built a level for the game [ZombiePanic!](http://www.zombiepanic.org/) using the eastside texture set from
 [Poke646](http://www.poke646.com/).
+
+[![Warehouse](/images/storage.thumb.jpg)](/images/storage.jpg "Warehouse")
+[![Rail Yard](/images/railyard.thumb.jpg)](/images/railyard.jpg "Rail Yard")
