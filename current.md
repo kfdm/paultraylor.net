@@ -7,14 +7,20 @@ title: Current Projects
 
 Projects that are mostly current (or at least recently updated)
 
-## [Python GNTP Library](https://github.com/kfdm/gntp)
+## Python GNTP Library
 Wrote an implementation of the [Growl Notification Transport Protocol](http://www.growlforwindows.com/gfw/help/gntp.aspx) in Python.  Also wrote a prototype listen server that can listen for GNTP messages and [regrowl](https://github.com/kfdm/gntp-regrowl) them to the local OSX machine.
 
-## [Python library for TheHitList](https://github.com/kfdm/thehitlist)
+{ [kfdm/gntp](https://github.com/kfdm/gntp) }
+
+## Python library for TheHitList
 Provides a python library to access [The Hit List](http://www.potionfactory.com/thehitlist/) through appscript's python to apple script bridge.  Currently in its early stages.  Will eventually be used to provide a method of importing entries from task trackers such as Piviotal Tracker or dates from Google Calendar and convert them into tasks.
 
-## [Python IRC Bot](https://github.com/kfdm/purplebot)
+{ [kfdm/thehitlist](https://github.com/kfdm/thehitlist) }
+
+## Python IRC Bot
 Used within my channel on GameSurge, I wrote an irc bot from scratch using python.
+
+{ [kfdm/purplebot](https://github.com/kfdm/purplebot) }
 
 ## Misc scripts
 I've written various other scripts.  For irssi I've written [irssi-nohilite](https://github.com/kfdm/irssi-nohilight) and
