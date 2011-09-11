@@ -12,15 +12,19 @@ Assorted interesting bits that helped get me to where I am today
 
 Started in the later part of my senior year of High School, I wrote a PHP framework that I used to power older versions of my site.
 
-## 2D Game Engine - <span>C#</span>
+## Murasaki
 
-Started after graduation from North Carolina State University, I wrote the beginnings of a [2D game engine](https://github.com/kfdm/murasaki) in C# to become more familiar with the language and tools.
+*2D Game Engine in C#*
+
+Started after graduation from North Carolina State University, I wrote the beginnings of a 2D game engine in C# to become more familiar with the language and tools.
 
 [ ![Muraski](/images/murasaki.thumb.png) ](/images/murasaki.png "Murasaki Screenshot")
 
 { [kfdm/murasaki](https://github.com/kfdm/murasaki) }
 
-## ns_altair - Natural-Selection (Game)
+## ns_altair
+
+*Underwater space station for sci-fi FPS*
 
 Built a level for the game [Natural-Selection](http://www.unknownworlds.com/ns/about/) which was eventually accepted and released as part of the game.
 
@@ -38,9 +42,11 @@ Built a level for the game [Natural-Selection](http://www.unknownworlds.com/ns/a
 
 { [Natural-Selection](http://www.unknownworlds.com/ns/about/) }
 
-## zp_eastside - Zombie Panic! (Game)
+## zp_eastside
 
-Built a level for the game [ZombiePanic!](http://www.moddb.com/mods/zombie-panic) using the eastside texture set from
+*Zombie infested rail yard*
+
+Built a level for the game ZombiePanic! using the eastside texture set from
 [Poke646](http://www.poke646.com/).
 
 [![Warehouse](/images/storage.thumb.jpg)](/images/storage.jpg "Warehouse")
