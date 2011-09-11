@@ -5,11 +5,16 @@ title: Experience
 ---
 # Experience
 
-## [WeGame.com](http://www.wegame.com/)
 
-March 2008 - Present
 
-I currently work for WeGame.com where my primary responsibility is web development with a secondary responsibility in server configuration and maintenance.
+## Work History
+
+### [WeGame.com](http://www.wegame.com/)
+
+March 2008 - August 2011
+
+At WeGame I was the lead web engineer where my responsibilities covered work
+on the main web site, media processing system, and server infrastructure .
 
 * Worked with other developers to rewrite entire WeGame site which was launched in November 2008
 * Wrote core of video processing system and continue to maintain media processing infrastructure
@@ -19,7 +24,7 @@ I currently work for WeGame.com where my primary responsibility is web developme
 
 Tools Used: PHP, Python, FFMpeg, jQuery, SphinxSE
 
-## [Department of Soil Science - North Carolina State University](http://www.soil.ncsu.edu/)
+### [Department of Soil Science - North Carolina State University](http://www.soil.ncsu.edu/)
 
 May 2005 - August 2007
 
@@ -29,8 +34,7 @@ While studying Computer Science at North Carolina State University, I worked for
 * Configured and maintained Linux file server, web server, and domain server (samba, apache, ldap)
 * Updated and maintained department and faculty web sites (php, mysql)
 
-
-## [Department of Computer Science - North Carolina State University](http://www.csc.ncsu.edu/)
+### [Department of Computer Science - North Carolina State University](http://www.csc.ncsu.edu/)
 
 August 2005 - December 2007
 
