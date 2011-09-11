@@ -114,6 +114,11 @@ section.experience h3 + ul li:after { content:","; }
 section.experience h3 + ul li:last-child:after {content: "";}
 section.experience h3 + ul li { display: inline; }
 
+section.experience h4 { line-height: 10%; }
+section.experience h4 + ul li:after { content:","; }
+section.experience h4 + ul li:last-child:after {content: "";}
+section.experience h4 + ul li { display: inline; }
+
 /****************************
 	Colors
 ****************************/
