@@ -24,6 +24,13 @@ Started after graduation from North Carolina State University, I wrote the begin
 
 Built a level for the game [Natural-Selection](http://www.unknownworlds.com/ns/about/) which was eventually accepted and released as part of the game.
 
+<object>
+	<param name="movie" value="http://www.youtube.com/v/lQSUdE3CzQ8?version=3" />
+	<param name="allowFullScreen" value="true" />
+	<param name="allowScriptAccess" value="always" />
+	<embed src="http://www.youtube.com/v/lQSUdE3CzQ8?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="320" height="240" />
+</object>
+
 [![Hive room](/images/hiveroom.thumb.jpg)](/images/hiveroom.jpg "Hive Room")
 [![Marine Start](/images/marinestart.thumb.jpg)](/images/marinestart.jpg "Marine Start")
 [![Pump Room](/images/pump.thumb.jpg)](/images/pump.jpg "Pump Room")
