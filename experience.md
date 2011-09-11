@@ -5,7 +5,32 @@ title: Experience
 ---
 # Experience
 
+## Goals
+* To build things that help other people work better and faster
+* To write well documented code that answers questions before they are asked
+* To achieve fluency in the Japanese Language
 
+## Skills
+
+### Programming Languages
+ * PHP
+ * Python
+ * Ruby
+
+### Tools
+ * Git
+ * FFMpeg
+
+### Frameworks
+ * Kohana
+ * jQuery
+
+### Operating Systems
+ * Mac OS X
+ * Linux
+
+### Other
+ * Japanese
 
 ## Work History
 
