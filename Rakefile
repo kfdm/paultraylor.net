@@ -2,24 +2,18 @@
 
 task :default => :server
 
-desc 'Build site with Jekyll.'
-task :build do
-    jekyll
+desc "Kill any running Jekyll instances"
+task :kill do
+    `psgrep -n bin/jekyll`.each do |line|
+        pid = line.split(' ')[1]
+        puts "Killing Jekyll with pid #{pid}"
+        `kill #{pid}`
+    end
 end
 
 desc 'Start server with --auto.'
-task :server do
-    jekyll('--server --auto')
-end
-
-desc 'Remove all built files.'
-task :clean do
-  sh 'rm -rf _site'
-end
-
-def jekyll(opts = '')
-  Rake::Task['clean'].execute
-  sh 'jekyll ' + opts
+task :server => [:kill] do
+  screen -S jekyll jekyll --server --auto`
 end
 
 # From http://www.madcowley.com/madcode/2010/12/running-migrations-in-sinatra/
