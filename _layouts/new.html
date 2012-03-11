@@ -6,6 +6,9 @@
 		<meta name="robots" content="noarchive" />
 		<link href="{{ site.url }}/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
 		<link type="text/css" href="/static/new.css" rel="stylesheet" />
+		{% if page.source_code %}
+		<link type="text/css" href="/static/syntax.css" rel="stylesheet" />
+		{% endif %}
 	</head>
 	<body>
 		<header id="head" class="{{ page.section }}">
