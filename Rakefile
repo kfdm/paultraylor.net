@@ -13,7 +13,7 @@ end
 
 desc 'Start server with --auto.'
 task :server => [:kill] do
-  screen -S jekyll jekyll --server --auto`
+  sh 'screen -S jekyll jekyll --server --auto'
 end
 
 # From http://www.madcowley.com/madcode/2010/12/running-migrations-in-sinatra/
