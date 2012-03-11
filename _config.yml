@@ -7,3 +7,4 @@ exclude:
   - CNAME
 url: http://kungfudiscomonkey.net
 title: KungFuDiscoMonkey.net
+permalink: /:categories/:year/:title.html
