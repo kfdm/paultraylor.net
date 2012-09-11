@@ -34,5 +34,8 @@
 {{ content }}
 		</section>
 		<footer class="{{ page.section }}">Copyright &copy; Paul Traylor 2004-2011</footer>
+		{% for js in page.javascript %}
+		<script type="text/javascript" src="{{ js }}"></script>
+		{% endfor %}
 	</body>
 </html>
