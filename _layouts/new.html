@@ -4,8 +4,12 @@
 		<meta charset="utf-8" />
 		<title>{{ page.title }}</title>
 		<meta name="robots" content="noarchive" />
+		<meta name="viewport" content="width=device-width, initial-scale=0.7">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
 		<link href="{{ site.url }}/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
-		<link type="text/css" href="/static/new.css" rel="stylesheet" />
+		<link type="text/css" href="/static/new.css" rel="stylesheet" media="screen" />
+		<link type="text/css" href="/static/mobile.css" rel="stylesheet" media="only screen and (max-device-width: 480px)" />
 		{% if page.source_code %}
 		<link type="text/css" href="/static/syntax.css" rel="stylesheet" />
 		{% endif %}
