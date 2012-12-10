@@ -16,15 +16,15 @@
 	</head>
 	<body>
 		<header id="head" class="{{ page.section }}">
-			<div>
+			<div class="head">
 				<a href="/index.html"><img src="/static/banner.png" alt="{{ site.title }}" /></a>
-				<span id="social">
+				<span class="social">
 					<a title="LinkedIn" href="http://www.linkedin.com/in/PaulTraylor"><img src="/static/linkedin.png" alt="" /></a>
 					<a title="GitHub" href="http://github.com/kfdm/"><img src="/static/github.png" alt="" /></a>
 					<a title="Twitter" href="http://twitter.com/kfdm/"><img src="/static/twitter.png" alt=""/></a>
 				</span>
 			</div>
-			<nav>
+			<nav class="head">
 				<ul>
 					<li class="about"><a href="/index.html">About</a></li>
 					<li class="experience"><a href="/experience.html">Experience</a></li>
@@ -34,7 +34,7 @@
 				</ul>
 			</nav>
 		</header>
-		<section id="content" class="{{page.tab}} {{ page.section }}">
+		<section class="content {{page.tab}} {{ page.section }}">
 {{ content }}
 		</section>
 		<footer class="{{ page.section }}">Copyright &copy; Paul Traylor 2004-2012</footer>

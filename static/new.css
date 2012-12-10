@@ -24,21 +24,21 @@ body {
 /****************************
 	Header
 ****************************/
-#head div {
+div.head {
 	padding: 10px;
 }
-#head nav{
+nav.head {
 	position: relative;
 	float:right;
 	padding: 0;
 }
-#social{
+.social {
 	float:right;
 	padding: 0.25em 0.5em;
 	vertical-align:bottom;
 	margin-top: 0.25em;
 }
-#head {
+header {
 	margin: 0;
 	font-weight: bold;
 	text-decoration: none;
@@ -70,7 +70,7 @@ nav li {
 /****************************
 	Content
 ****************************/
-#content {
+.content {
 	padding-top: 30px;
 	padding-left: 20px;
 	padding-bottom: 12pt;
@@ -120,9 +120,9 @@ section.experience h4 + ul li { display: inline; }
 	Colors
 ****************************/
 {% for color in page.colors %}
-#head.{{ color.name }} div { background-color: {{ color.value }};}
-#head nav li.{{ color.name }} { background-color: {{ color.value }}; }
+header.{{ color.name }} div { background-color: {{ color.value }};}
+nav.head li.{{ color.name }} { background-color: {{ color.value }}; }
 footer.{{ color.name }} { background-color: {{ color.value }}; }
-#content.{{ color.name }} h1 { color: {{ color.value }} !important; }
-#content.{{ color.name }} h2 { color: {{ color.value }} !important; }
+section.{{ color.name }} h1 { color: {{ color.value }}; }
+section.{{ color.name }} h2 { color: {{ color.value }}; }
 {% endfor %}
