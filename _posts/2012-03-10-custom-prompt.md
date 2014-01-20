@@ -3,6 +3,7 @@ layout: post
 title: custom bash prompt
 date: 2012-03-10 21:25
 categories: blog
+section: about
 source_code: true
 ---
 

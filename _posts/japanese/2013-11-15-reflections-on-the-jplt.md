@@ -1,8 +1,8 @@
 ---
-layout: post
-title: 日本語能力試験について
-date: 2013-11-15
 categories: 日本語
+layout: post
+section: future
+title: 日本語能力試験について
 ---
 
 ２０１３年１２月１日にもう一度日本語能力試験を受ける。

@@ -1,8 +1,8 @@
 ---
-layout: post
-title: 入学試験
 categories: 日本語
-date: 2014-01-11
+layout: post
+section: future
+title: 入学試験
 ---
 
 今日僕の学校の冬学期が始めた。

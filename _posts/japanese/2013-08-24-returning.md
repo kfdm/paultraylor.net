@@ -1,8 +1,8 @@
 ---
-layout: post
-title: 帰る
-date: 2013-08-24
 categories: 日本語
+layout: post
+section: future
+title: 帰る
 ---
 明日の午後サンフランシスコに帰る。日本から帰る時は何時もちょっと悲しい。今年沢山素敵な経験できた！
 

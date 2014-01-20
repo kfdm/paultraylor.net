@@ -1,7 +1,8 @@
 ---
-layout: post
-title: 単語を忘れた
 categories: 日本語
+layout: post
+section: future
+title: 単語を忘れた
 ---
 最近毎晩練習のために僕は日記を書く。
 先日ちょっと疲れたから「今晩ちょっと早く寝ようと思う」と書くつもりだった。

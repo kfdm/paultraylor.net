@@ -10,5 +10,5 @@ I generally work with a mix of PHP, Python, and jQuery (javascript) as my projec
 
 ## Recent Posts
 {% for post in site.posts limit:10 %}
- * {{ post.date | date_to_string }} [{{ post.title | capitalize }}]({{ post.url }})
+ * {{ post.date | date_to_string }} [{{ post.title | capitalize }}]({{ post.url }}) [{% for cat in post.categories %}{{ cat }}{% endfor %}]
 {% endfor %}
