@@ -1,6 +1,4 @@
 pygments: true
-server: true
-auto: true
 exclude:
   - Rakefile
   - README.markdown
@@ -8,3 +6,5 @@ exclude:
 url: http://kungfudiscomonkey.net
 title: KungFuDiscoMonkey.net
 permalink: /:categories/:title.html
+timezone: America/Los_Angeles
+markdown: redcarpet
