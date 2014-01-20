@@ -1,5 +1,4 @@
 ---
-categories: 日本語
 layout: post
 section: future
 title: 日本語能力試験について
