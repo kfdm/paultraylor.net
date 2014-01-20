@@ -9,6 +9,6 @@ I'm a web developer who also likes to play with assorted other programming proje
 I generally work with a mix of PHP, Python, and jQuery (javascript) as my projects require.  I prefer to work on more server side code than frontend code.
 
 ## Recent Posts
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:10 %}
  * {{ post.date | date_to_string }} [{{ post.title | capitalize }}]({{ post.url }})
 {% endfor %}

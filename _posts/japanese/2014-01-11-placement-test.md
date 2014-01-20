@@ -1,6 +1,6 @@
 ---
 layout: post
-title: placement test
+title: 入学試験
 categories: 日本語
 date: 2014-01-11
 ---

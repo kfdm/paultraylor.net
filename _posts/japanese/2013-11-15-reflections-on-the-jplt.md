@@ -1,6 +1,6 @@
 ---
 layout: post
-title: reflections on the jplt
+title: 日本語能力試験について
 date: 2013-11-15
 categories: 日本語
 ---
