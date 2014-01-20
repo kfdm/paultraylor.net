@@ -1,5 +1,5 @@
 ---
-layout: new
+layout: default
 section: past
 title: Past Projects
 ---
