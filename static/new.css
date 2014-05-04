@@ -22,21 +22,34 @@ body {
 a { color: #000; }
 h2 > a { color: inherit; text-decoration: none;}
 h1 {
-	font-size:24pt;
+	font-size:30pt;
 	font-weight: bold;
 	border-bottom: solid 3px;
 }
 h2 {
-	font-size: 12pt;
+	font-size: 24pt;
 	font-weight: bold;
 	border-bottom: solid 1px;
 }
 h3 {
-	font-size: 10pt;
+	font-size: 16pt;
+}
+
+h4 {
+    font-size: 12pt;
+}
+
+h5 {
+    font-size: 10pt;
 }
 
 section.content {
 	padding: 40px 15px;
+}
+
+/* http://stackoverflow.com/a/11134911 */
+section a[href^="http"]:after {
+    content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
 }
 
 /****************************
@@ -67,6 +80,10 @@ section.experience h4 { line-height: 10%; }
 section.experience h4 + ul li:after { content:","; }
 section.experience h4 + ul li:last-child:after {content: "";}
 section.experience h4 + ul li { display: inline; }
+section.experience h5 { line-height: 10%; }
+section.experience h5 + ul li:after { content:","; }
+section.experience h5 + ul li:last-child:after {content: "";}
+section.experience h5 + ul li { display: inline; }
 
 /****************************
 	Colors

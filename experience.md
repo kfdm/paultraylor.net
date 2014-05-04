@@ -6,33 +6,64 @@ title: Experience
 # Experience
 
 ## Goals
-* To build things that help other people work better and faster
+* To build tools that help other people work better and faster
 * To write well documented code that answers questions before they are asked
 * To achieve fluency in the Japanese Language
 
-## Skills
-
-### Programming Languages
- * PHP
- * Python
- * Ruby
-
-### Tools
- * Git
- * FFMpeg
-
-### Frameworks
- * Kohana
- * jQuery
-
-### Operating Systems
- * Mac OS X
- * Linux
-
-### Other
- * Japanese
-
 ## Work History
+
+### [Upsight](http://www.upsight.com)
+
+September 2011 - Present
+
+
+#### Development VM Environment
+
+Starting from an original version created out of fabric and shell scripts, and transitioning to a version using saltstack, built a developer environment to collapse the major parts of Kontagent's infrastructure into a single virtual machine for development.
+
+##### Tools Used
+ * [SaltStack](http://www.saltstack.com/)
+ * Python
+ * Bash
+ * Xen
+ * git
+ * [Fabric](http://www.fabfile.org/)
+
+#### Testing and Release Engineering
+
+Took over and expanded TeamCity testing environment configuring it to handle a majority of different components across the Kontagent stack.
+Built tooling to better link Atlassian tools to a git-flow workflow
+
+##### Tools Used
+ * [TeamCity](http://www.jetbrains.com/teamcity/)
+ * [nosetests](https://nose.readthedocs.org/)
+ * maven
+ * [Atlassian Stash](https://www.atlassian.com/software/stash)
+ * Atlassian JIRA
+ * git
+
+#### Production Automation
+
+ * Expanded the tools used with the development environment, lead the conversion of many of the remaining systems to be deployed using configuration management.
+ * Lead cross-engineering training to ensure each engineering team had a primary "automation" contact to assist teams in placing all systems under configuration management.
+
+##### Tools Used
+ * [SaltStack](http://www.saltstack.com/)
+ * Python
+ * git
+ * Bash
+
+#### Legacy Support
+
+Supported legacy ETL systems by improving error handling and monitoring
+
+##### Tools Used:
+ * [Icinga](https://www.icinga.org/)
+ * Python
+ * [OpenTSDB](http://opentsdb.net/)
+ * [tcollector](https://github.com/OpenTSDB/tcollector)
+ * MySQL
+ * [Fabric](http://www.fabfile.org/)
 
 ### [WeGame.com](http://www.wegame.com/)
 
@@ -47,7 +78,7 @@ on the main web site, media processing system, and server infrastructure .
 * Wrote admin system used by staff to control various aspects of running WeGame.com
 * Configuration and management of servers used to run WeGame (Web, Database, Media, Utility)
 
-#### Tools Used
+##### Tools Used
  * PHP
  * Python
  * MySQL
@@ -69,7 +100,7 @@ While studying Computer Science at North Carolina State University, I worked for
 * Configured and maintained Linux file server, web server, and domain server (samba, apache, ldap)
 * Updated and maintained department and faculty web sites (php, mysql)
 
-#### Tools Used
+##### Tools Used
  * PHP
  * Xen
  * Samba
