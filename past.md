@@ -26,7 +26,7 @@ Started after graduation from North Carolina State University, I wrote the begin
 
 *Underwater space station for sci-fi FPS*
 
-Built a level for the game [Natural-Selection](http://www.unknownworlds.com/ns/about/) which was eventually accepted and released as part of the game.
+Built a level for the game [Natural-Selection](http://unknownworlds.com/ns/about/) which was eventually accepted and released as part of the game.
 
 <object>
 	<param name="movie" value="http://www.youtube.com/v/lQSUdE3CzQ8?version=3" />
@@ -40,7 +40,7 @@ Built a level for the game [Natural-Selection](http://www.unknownworlds.com/ns/a
 [![Pump Room](/images/pump.thumb.jpg)](/images/pump.jpg "Pump Room")
 [![Curved Walkway](/images/walkway.thumb.jpg)](/images/walkway.jpg "Curved Walkway")
 
-{ [Natural-Selection](http://www.unknownworlds.com/ns/about/) }
+{ [Natural-Selection](http://unknownworlds.com/ns/about/) }
 
 ## zp_eastside
 
