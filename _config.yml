@@ -3,7 +3,7 @@ exclude:
   - Rakefile
   - README.markdown
   - CNAME
-url: http://kungfudiscomonkey.net
+url: http://paultraylor.net
 title: KungFuDiscoMonkey.net
 permalink: /:categories/:title.html
 timezone: America/Los_Angeles
