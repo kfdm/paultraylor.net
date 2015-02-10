@@ -6,5 +6,7 @@ exclude:
 url: http://paultraylor.net
 title: KungFuDiscoMonkey.net
 permalink: /:categories/:title.html
-timezone: America/Los_Angeles
-markdown: redcarpet
+timezone: Asia/Tokyo
+markdown: kramdown
+twitter_username: kfdm
+github_username:  kfdm
