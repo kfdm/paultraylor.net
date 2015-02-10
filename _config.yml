@@ -1,4 +1,3 @@
-highlighter: true
 exclude:
   - Rakefile
   - README.markdown
