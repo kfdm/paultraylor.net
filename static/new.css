@@ -95,3 +95,12 @@ footer.{{ color.name }} { background-color: {{ color.value }}; }
 section.{{ color.name }} h1 { color: {{ color.value }}; }
 section.{{ color.name }} h2 { color: {{ color.value }}; }
 {% endfor %}
+
+iframe.chart {
+    overflow: scroll;
+    border: 0;
+    width: 100%;
+    height: 460px;
+    position: relative;
+    padding:20px;
+}

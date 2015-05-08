@@ -9,3 +9,17 @@ timezone: Asia/Tokyo
 markdown: kramdown
 twitter_username: kfdm
 github_username:  kfdm
+
+defaults:
+  -
+    scope:
+      path: "blog"
+      type: "posts"
+    values:
+      section: about
+  -
+    scope:
+      path: "nihongo"
+      type: "posts"
+    values:
+      section: future
