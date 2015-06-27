@@ -53,3 +53,8 @@ Built a level for the game ZombiePanic! using the eastside texture set from
 [![Rail Yard](/images/railyard.thumb.jpg)](/images/railyard.jpg "Rail Yard")
 
 { [ZombiePanic!](http://www.moddb.com/mods/zombie-panic) }
+
+## Python library for TheHitList
+Provides a python library to access [The Hit List](http://www.potionfactory.com/thehitlist/) through appscript's python to apple script bridge.  Currently in its early stages.  Will eventually be used to provide a method of importing entries from task trackers such as Piviotal Tracker or dates from Google Calendar and convert them into tasks.
+
+{ [kfdm/thehitlist](https://github.com/kfdm/thehitlist) }

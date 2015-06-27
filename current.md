@@ -8,14 +8,14 @@ title: Current Projects
 Projects that are mostly current (or at least recently updated)
 
 ## Python GNTP Library
+
+![image](https://img.shields.io/github/license/kfdm/gntp.svg)
+![image](https://img.shields.io/github/issues/kfdm/gntp.svg)
+![image](https://img.shields.io/pypi/v/gntp.svg)
+
 Wrote an implementation of the [Growl Notification Transport Protocol](http://www.growlforwindows.com/gfw/help/gntp.aspx) in Python.  Also wrote a prototype listen server that can listen for GNTP messages and [regrowl](https://github.com/kfdm/gntp-regrowl) them to the local OSX machine.
 
 { [kfdm/gntp](https://github.com/kfdm/gntp) }
-
-## Python library for TheHitList
-Provides a python library to access [The Hit List](http://www.potionfactory.com/thehitlist/) through appscript's python to apple script bridge.  Currently in its early stages.  Will eventually be used to provide a method of importing entries from task trackers such as Piviotal Tracker or dates from Google Calendar and convert them into tasks.
-
-{ [kfdm/thehitlist](https://github.com/kfdm/thehitlist) }
 
 ## Python IRC Bot
 Used within my channel on GameSurge, I wrote an irc bot from scratch using python.
@@ -29,5 +29,5 @@ I've written various other scripts.  For irssi I've written [irssi-nohilite](htt
 I wrote [iTunes-lyrics-artwork](https://github.com/kfdm/itunes-lyrics-artwork) to figure out songs in my library that were missing
 artwork or lyrics.
 
-I wrote [radio-growl](https://github.com/kfdm/radio-growl) and [radio](https://github.com/kfdm/radio) 
+I wrote [radio-growl](https://github.com/kfdm/radio-growl) and [radio](https://github.com/kfdm/radio)
 to notify me what songs were playing on a radio station I enjoy.
