@@ -1,9 +1,0 @@
-@media screen and (max-device-width: 480px){
-    header#head {
-        position: relative;
-    }
-
-    section#content {
-        padding-top: 0;
-    }
-}
