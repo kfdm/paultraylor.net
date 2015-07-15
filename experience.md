@@ -64,7 +64,7 @@ Supported legacy ETL systems by improving error handling and monitoring
  * MySQL
  * [Fabric](http://www.fabfile.org/)
 
-### [WeGame.com](http://www.wegame.com/)
+### [WeGame.com](https://www.crunchbase.com/organization/wegame)
 
 March 2008 - August 2011
 
