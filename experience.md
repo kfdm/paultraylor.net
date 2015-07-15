@@ -14,8 +14,7 @@ title: Experience
 
 ### [Upsight](http://www.upsight.com)
 
-September 2011 - Present
-
+September 2011 - December 2014
 
 #### Development VM Environment
 
@@ -107,6 +106,20 @@ While studying Computer Science at North Carolina State University, I worked for
  * Ldap
  * Windows XP
  * Fedora Linux
+
+## Education
+
+### [Fukuoka YMCA](http://www.fukuoka-ymca.or.jp/japanese/course)
+
+April 2015 - Present
+
+Japanese course
+
+### [Genki JACS](http://www.genkijacs.com/)
+
+January 2015 - March 2015
+
+Short term Japanese course
 
 ### [Department of Computer Science - North Carolina State University](http://www.csc.ncsu.edu/)
 
