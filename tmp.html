@@ -1,10 +1,6 @@
----
-layout: post
-title: "wanikani charts"
-date: "2015-05-08 20:21"
-chart: true
----
-
+<html>
+    <head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript">
     // https://developers.google.com/chart/interactive/docs/gallery/annotationchart
     google.load('visualization', '1', {'packages':['annotationchart']});
@@ -13,7 +9,7 @@ chart: true
     google.setOnLoadCallback(drawGID);
 
     function drawGID() {
-        var queryString = encodeURIComponent('SELECT A, B, C, D');
+        var queryString = encodeURIComponent('SELECT A, C, B, D');
         var query = new google.visualization.Query(
             'https://docs.google.com/spreadsheets/d/1Zb61QlJVS81XDmSOOj_eY-Xj098DKNKKxGLSuKL8_Ss/gviz/tq?gid=0&headers=1&tq=' + queryString);
         query.send(handleQueryResponse);
@@ -28,7 +24,7 @@ chart: true
         var data = response.getDataTable();
 
         start = new Date();
-        start.setDate(start.getDate() - 5);
+        start.setDate(start.getDate() - 7);
 
         var chart = new google.visualization.AnnotationChart(document.getElementById('chart_div'));
         var options = {
@@ -38,5 +34,9 @@ chart: true
         chart.draw(data, options);
     }
 </script>
-
-<div id="chart_div" style="width:400; height:300"></div>
+</head>
+<body>
+<a href="/">Back</a>
+<div id="chart_div" style="width:800; height:400">Loading...</div>
+</body>
+</html>
