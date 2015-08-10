@@ -1,6 +1,5 @@
 exclude:
-  - Rakefile
-  - README.markdown
+  - README.md
   - CNAME
 url: http://paultraylor.net
 title: KungFuDiscoMonkey.net
@@ -23,3 +22,6 @@ defaults:
       type: "posts"
     values:
       section: future
+
+gems:
+  - jekyll-redirect-from
