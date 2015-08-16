@@ -25,6 +25,7 @@
             var chart = new google.visualization.AnnotationChart(document.getElementById('chart_div'));
             var options = {
                 displayAnnotations: true,
+                min: 0,
                 zoomStartTime: start,
             };
             chart.draw(data, options);
