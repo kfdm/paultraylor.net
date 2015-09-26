@@ -3,14 +3,14 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
 		<meta name="description" content="{{ site.description }}">
 		<meta name="robots" content="noarchive" />
 		<meta name="viewport" content="width=device-width initial-scale=1" />
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-		<link rel="alternate" href="{{ "/atom.xml" | prepend: site.baseurl }}" title="{{ site.title }}" type="application/atom+xml" />
+		{% feed_meta %}
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 		<link rel="stylesheet" media="screen" href="{{ "/static/new.css" | prepend: site.baseurl }}">
 		<link rel="stylesheet" media="screen" href="{{ "/static/syntax.css" | prepend: site.baseurl }}">
