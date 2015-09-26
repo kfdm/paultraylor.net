@@ -8,5 +8,5 @@ section: future
 上手になるために時々日本語で書いてみる。
 
 {% for post in site.categories.nihongo %}
- * {{ post.date | date_to_string }} &raquo; [{{ post.title }}]({{ post.url }})
+ * [{{ post.date | date: "%Y年%m月%d日" }} &raquo; {{ post.title }}]({{ post.url }})
 {% endfor %}

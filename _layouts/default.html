@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- https://github.com/kfdm/kfdm.github.com/commits/master/{{ page.path }} -->
-<html lang="en">
+<html lang="{% if page.lang %}{{ page.lang}}{% else %}en{% endif %}">
 	<head>
 		<meta charset="utf-8" />
 		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>

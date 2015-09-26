@@ -19,15 +19,14 @@ defaults:
   -
     scope:
       path: "blog"
-      type: "posts"
     values:
       section: about
   -
     scope:
       path: "nihongo"
-      type: "posts"
     values:
       section: future
+      lang: ja
 
 gems:
   - jekyll-feed
