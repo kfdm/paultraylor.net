@@ -19,8 +19,8 @@ body {
 /****************************
 	Content
 ****************************/
-a { color: #000; }
 h2 > a { color: inherit; text-decoration: none;}
+/*a { color: #000;}*/
 h1 {
 	font-size:30pt;
 	font-weight: bold;
