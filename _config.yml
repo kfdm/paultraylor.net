@@ -2,7 +2,7 @@ exclude:
   - README.md
   - CNAME
 url: http://paultraylor.net
-name: KungFuDiscoMonkey.net
+name: Paul Traylor
 permalink: /:categories/:title.html
 timezone: Asia/Tokyo
 markdown: kramdown

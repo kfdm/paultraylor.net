@@ -1,7 +1,6 @@
 ---
 layout: default
 section: about
-title: KungFuDiscoMonkey.net
 ---
 # About
 I'm a software developer who currently lives in Fukuoka, Japan. I enjoy focusing
