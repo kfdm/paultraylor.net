@@ -1,0 +1,102 @@
+{
+  "": {
+    "kfdm/adium-logs": {
+      "description": "Parses an Adium logfile and converts it into a text only format",
+      "url": "https://github.com/kfdm/adium-logs"
+    },
+    "kfdm/anki-importer": {
+      "description": "Scripts to convert various files into a format Anki can more easily import",
+      "url": "https://github.com/kfdm/anki-importer"
+    },
+    "kfdm/applescript": {
+      "description": "Random AppleScript files",
+      "url": "https://github.com/kfdm/applescript"
+    },
+    "kfdm/calgen": {
+      "description": "Generate calendars from a simple config file",
+      "url": "https://github.com/kfdm/calgen"
+    },
+    "kfdm/chibi-skulk": {
+      "description": "Collection of scripts for IRC",
+      "url": "https://github.com/kfdm/chibi-skulk"
+    },
+    "kfdm/dotfiles": {
+      "description": "Dotfiles for @kfdm",
+      "url": "https://github.com/kfdm/dotfiles"
+    },
+    "kfdm/hatarake": {
+      "description": "\u50cd\u3051 - A companion for Pomodoro to remind you when you haven't started a new one in a while",
+      "url": "https://github.com/kfdm/hatarake"
+    }
+  },
+  "alfred": {
+    "kfdm/alfred-clear": {
+      "description": "",
+      "url": "https://github.com/kfdm/alfred-clear"
+    },
+    "kfdm/alfred-cli": {
+      "description": "Alfred plugins",
+      "url": "https://github.com/kfdm/alfred-cli"
+    },
+    "kfdm/alfred-language-switcher": {
+      "description": "",
+      "url": "https://github.com/kfdm/alfred-language-switcher"
+    },
+    "kfdm/alfred-renshuu": {
+      "description": "Quick search plugin for https://www.renshuu.org/",
+      "url": "https://github.com/kfdm/alfred-renshuu"
+    },
+    "kfdm/alfred-roulette": {
+      "description": "Experimental Alfred plugin to select a random item from ToDo lists / GitHub Issues",
+      "url": "https://github.com/kfdm/alfred-roulette"
+    },
+    "kfdm/alfred-salt": {
+      "description": "Control Salt from Alfred by using the salt-api",
+      "url": "https://github.com/kfdm/alfred-salt"
+    },
+    "kfdm/alfred-thehitlist": {
+      "description": "",
+      "url": "https://github.com/kfdm/alfred-thehitlist"
+    }
+  },
+  "django": {
+    "kfdm/django-cal-log": {
+      "description": "Simple logging into a ical object",
+      "url": "https://github.com/kfdm/django-cal-log"
+    },
+    "kfdm/django-growl": {
+      "description": "Django endpoint to forward growl (gntp) notifications",
+      "url": "https://github.com/kfdm/django-growl"
+    },
+    "kfdm/django-location": {
+      "description": "Mixing Django and IFTT Location Data",
+      "url": "https://github.com/kfdm/django-location"
+    },
+    "kfdm/django-pomodoro": {
+      "description": "Render a pomodoro calendar as an ical document",
+      "url": "https://github.com/kfdm/django-pomodoro"
+    },
+    "kfdm/django-powerplug": {
+      "description": null,
+      "url": "https://github.com/kfdm/django-powerplug"
+    },
+    "kfdm/django-qdb": {
+      "description": "Quote module for Django",
+      "url": "https://github.com/kfdm/django-qdb"
+    },
+    "kfdm/django-simplestats": {
+      "description": "Simple stats for my own use.",
+      "url": "https://github.com/kfdm/django-simplestats"
+    }
+  },
+  "gntp": {
+    "kfdm/gntp": {
+      "description": "GNTP Python Library",
+      "url": "https://github.com/kfdm/gntp"
+    },
+    "kfdm/gntp-regrowl": {
+      "description": "Regrowl GNTP messages on OSX",
+      "url": "https://github.com/kfdm/gntp-regrowl"
+    }
+  }
+}
