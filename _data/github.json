@@ -24,6 +24,10 @@
       "description": "Dotfiles for @kfdm",
       "url": "https://github.com/kfdm/dotfiles"
     },
+    "kfdm/growlme": {
+      "description": "small script to send yourself a growl notification when a command finishes",
+      "url": "https://github.com/kfdm/growlme"
+    },
     "kfdm/hatarake": {
       "description": "\u50cd\u3051 - A companion for Pomodoro to remind you when you haven't started a new one in a while",
       "url": "https://github.com/kfdm/hatarake"

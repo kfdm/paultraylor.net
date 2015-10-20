@@ -1,16 +1,17 @@
 import json
 import collections
 
-tags = collections.defaultdict(dict)
-groups = ['alfred', 'gntp', 'django']
+GROUPS = ['alfred', 'gntp', 'django']
+FORKS = ['growlme']
 
+tags = collections.defaultdict(dict)
 for repo in json.loads(open('github.api.json').read()):
-    if repo['fork']:
+    if repo['fork'] and repo['name'] not in FORKS:
         continue
     if '-' in repo['name']:
         group, _ = repo['name'].split('-', 1)
-        tag = group if group in groups else ''
-    elif repo['name'] in groups:
+        tag = group if group in GROUPS else ''
+    elif repo['name'] in GROUPS:
         tag = repo['name']
     else:
         tag = ''
