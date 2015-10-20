@@ -40,6 +40,7 @@
     },
     "kfdm/alfred-cli": {
       "description": "Alfred plugins",
+      "homepage": "http://kungfudiscomonkey.net/alfred/",
       "url": "https://github.com/kfdm/alfred-cli"
     },
     "kfdm/alfred-language-switcher": {
@@ -96,6 +97,7 @@
   "gntp": {
     "kfdm/gntp": {
       "description": "GNTP Python Library",
+      "homepage": "http://packages.python.org/gntp/",
       "url": "https://github.com/kfdm/gntp"
     },
     "kfdm/gntp-regrowl": {
