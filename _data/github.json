@@ -1,96 +1,192 @@
 {
   "": {
+    "kfdm/OSXServices": {
+      "description": "",
+      "homepage": "https://github.com/kfdm/OSXServices/zipball/master",
+      "name": "kfdm/OSXServices",
+      "url": "https://github.com/kfdm/OSXServices"
+    },
     "kfdm/adium-logs": {
       "description": "Parses an Adium logfile and converts it into a text only format",
+      "name": "kfdm/adium-logs",
       "url": "https://github.com/kfdm/adium-logs"
     },
     "kfdm/anki-importer": {
       "description": "Scripts to convert various files into a format Anki can more easily import",
+      "name": "kfdm/anki-importer",
       "url": "https://github.com/kfdm/anki-importer"
     },
     "kfdm/applescript": {
       "description": "Random AppleScript files",
+      "name": "kfdm/applescript",
       "url": "https://github.com/kfdm/applescript"
     },
     "kfdm/calgen": {
       "description": "Generate calendars from a simple config file",
+      "name": "kfdm/calgen",
       "url": "https://github.com/kfdm/calgen"
     },
     "kfdm/chibi-skulk": {
       "description": "Collection of scripts for IRC",
+      "name": "kfdm/chibi-skulk",
       "url": "https://github.com/kfdm/chibi-skulk"
     },
     "kfdm/dotfiles": {
       "description": "Dotfiles for @kfdm",
+      "name": "kfdm/dotfiles",
       "url": "https://github.com/kfdm/dotfiles"
     },
     "kfdm/growlme": {
       "description": "small script to send yourself a growl notification when a command finishes",
+      "name": "kfdm/growlme",
       "url": "https://github.com/kfdm/growlme"
     },
     "kfdm/hatarake": {
       "description": "\u50cd\u3051 - A companion for Pomodoro to remind you when you haven't started a new one in a while",
+      "name": "kfdm/hatarake",
       "url": "https://github.com/kfdm/hatarake"
+    },
+    "kfdm/ical-growl": {
+      "description": "Basic growl notifications from iCal",
+      "name": "kfdm/ical-growl",
+      "url": "https://github.com/kfdm/ical-growl"
+    },
+    "kfdm/ideas": {
+      "description": "",
+      "name": "kfdm/ideas",
+      "url": "https://github.com/kfdm/ideas"
+    },
+    "kfdm/itunes-lyrics-artwork": {
+      "description": "Scan library to find tracks missing lyrics or artwork",
+      "name": "kfdm/itunes-lyrics-artwork",
+      "url": "https://github.com/kfdm/itunes-lyrics-artwork"
+    },
+    "kfdm/kaiwa": {
+      "description": "Extracting conversations into a more readable format",
+      "name": "kfdm/kaiwa",
+      "url": "https://github.com/kfdm/kaiwa"
+    },
+    "kfdm/kfdm.github.com": {
+      "description": "Misc stuff",
+      "homepage": "kfdm.github.com",
+      "name": "kfdm/kfdm.github.com",
+      "url": "https://github.com/kfdm/kfdm.github.com"
+    },
+    "kfdm/kohana-migrate": {
+      "description": "Migration code for Kohana 2.1",
+      "name": "kfdm/kohana-migrate",
+      "url": "https://github.com/kfdm/kohana-migrate"
+    },
+    "kfdm/murasaki": {
+      "description": "Old prototype game engine",
+      "name": "kfdm/murasaki",
+      "url": "https://github.com/kfdm/murasaki"
+    },
+    "kfdm/prowl-cli": {
+      "description": "",
+      "name": "kfdm/prowl-cli",
+      "url": "https://github.com/kfdm/prowl-cli"
+    },
+    "kfdm/purplebot": {
+      "description": "IRC Bot Written in Python",
+      "homepage": "http://kungfudiscomonkey.net/purplebot/",
+      "name": "kfdm/purplebot",
+      "url": "https://github.com/kfdm/purplebot"
+    },
+    "kfdm/pydefaults": {
+      "description": "Python module loosely based on OSX's defaults system",
+      "name": "kfdm/pydefaults",
+      "url": "https://github.com/kfdm/pydefaults"
+    },
+    "kfdm/radio-growl": {
+      "description": "AnimeNFO Radio Growl",
+      "homepage": "http://www.animenfo.com/radio/ ",
+      "name": "kfdm/radio-growl",
+      "url": "https://github.com/kfdm/radio-growl"
+    },
+    "kfdm/wanikani": {
+      "description": "",
+      "name": "kfdm/wanikani",
+      "url": "https://github.com/kfdm/wanikani"
+    },
+    "kfdm/wanikani-tools": {
+      "description": "Calendar to show upcoming reviews for Wanikani",
+      "name": "kfdm/wanikani-tools",
+      "url": "https://github.com/kfdm/wanikani-tools"
     }
   },
   "alfred": {
     "kfdm/alfred-clear": {
       "description": "",
+      "name": "kfdm/alfred-clear",
       "url": "https://github.com/kfdm/alfred-clear"
     },
     "kfdm/alfred-cli": {
       "description": "Alfred plugins",
       "homepage": "http://kungfudiscomonkey.net/alfred/",
+      "name": "kfdm/alfred-cli",
       "url": "https://github.com/kfdm/alfred-cli"
     },
     "kfdm/alfred-language-switcher": {
       "description": "",
+      "name": "kfdm/alfred-language-switcher",
       "url": "https://github.com/kfdm/alfred-language-switcher"
     },
     "kfdm/alfred-renshuu": {
       "description": "Quick search plugin for https://www.renshuu.org/",
+      "name": "kfdm/alfred-renshuu",
       "url": "https://github.com/kfdm/alfred-renshuu"
     },
     "kfdm/alfred-roulette": {
       "description": "Experimental Alfred plugin to select a random item from ToDo lists / GitHub Issues",
+      "name": "kfdm/alfred-roulette",
       "url": "https://github.com/kfdm/alfred-roulette"
     },
     "kfdm/alfred-salt": {
       "description": "Control Salt from Alfred by using the salt-api",
+      "name": "kfdm/alfred-salt",
       "url": "https://github.com/kfdm/alfred-salt"
     },
     "kfdm/alfred-thehitlist": {
       "description": "",
+      "name": "kfdm/alfred-thehitlist",
       "url": "https://github.com/kfdm/alfred-thehitlist"
     }
   },
   "django": {
     "kfdm/django-cal-log": {
       "description": "Simple logging into a ical object",
+      "name": "kfdm/django-cal-log",
       "url": "https://github.com/kfdm/django-cal-log"
     },
     "kfdm/django-growl": {
       "description": "Django endpoint to forward growl (gntp) notifications",
+      "name": "kfdm/django-growl",
       "url": "https://github.com/kfdm/django-growl"
     },
     "kfdm/django-location": {
       "description": "Mixing Django and IFTT Location Data",
+      "name": "kfdm/django-location",
       "url": "https://github.com/kfdm/django-location"
     },
     "kfdm/django-pomodoro": {
       "description": "Render a pomodoro calendar as an ical document",
+      "name": "kfdm/django-pomodoro",
       "url": "https://github.com/kfdm/django-pomodoro"
     },
     "kfdm/django-powerplug": {
       "description": null,
+      "name": "kfdm/django-powerplug",
       "url": "https://github.com/kfdm/django-powerplug"
     },
     "kfdm/django-qdb": {
       "description": "Quote module for Django",
+      "name": "kfdm/django-qdb",
       "url": "https://github.com/kfdm/django-qdb"
     },
     "kfdm/django-simplestats": {
       "description": "Simple stats for my own use.",
+      "name": "kfdm/django-simplestats",
       "url": "https://github.com/kfdm/django-simplestats"
     }
   },
@@ -98,11 +194,43 @@
     "kfdm/gntp": {
       "description": "GNTP Python Library",
       "homepage": "http://packages.python.org/gntp/",
+      "name": "kfdm/gntp",
       "url": "https://github.com/kfdm/gntp"
     },
     "kfdm/gntp-regrowl": {
       "description": "Regrowl GNTP messages on OSX",
+      "name": "kfdm/gntp-regrowl",
       "url": "https://github.com/kfdm/gntp-regrowl"
+    }
+  },
+  "irssi": {
+    "kfdm/irssi-growl": {
+      "description": "Growl notification script for irssi",
+      "homepage": "http://axman6.homeip.net/blog/growl-net-irssi-script-its-back.html",
+      "name": "kfdm/irssi-growl",
+      "url": "https://github.com/kfdm/irssi-growl"
+    },
+    "kfdm/irssi-nohilight": {
+      "description": "Ignore hilights from certain nicks",
+      "name": "kfdm/irssi-nohilight",
+      "url": "https://github.com/kfdm/irssi-nohilight"
+    }
+  },
+  "salt": {
+    "kfdm/salt-config": {
+      "description": "Salt states and modules for manipulating config files",
+      "name": "kfdm/salt-config",
+      "url": "https://github.com/kfdm/salt-config"
+    },
+    "kfdm/salt-gntp": {
+      "description": "Send gntp (growl) messages from Salt",
+      "name": "kfdm/salt-gntp",
+      "url": "https://github.com/kfdm/salt-gntp"
+    },
+    "kfdm/salt-repl": {
+      "description": "Experimental Salt REPL",
+      "name": "kfdm/salt-repl",
+      "url": "https://github.com/kfdm/salt-repl"
     }
   }
 }

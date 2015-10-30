@@ -1,7 +1,14 @@
+# http get 'https://api.github.com/users/kfdm/repos?per_page=100' > github.api.json
 import json
 import collections
 
-GROUPS = ['alfred', 'gntp', 'django']
+GROUPS = [
+    'alfred',
+    'django',
+    'gntp',
+    'irssi',
+    'salt',
+]
 FORKS = ['growlme']
 
 tags = collections.defaultdict(dict)
@@ -17,6 +24,7 @@ for repo in json.loads(open('github.api.json').read()):
         tag = ''
 
     tags[tag][repo['full_name']] = {
+        'name': repo['full_name'],
         'description': repo['description'],
         'url': repo['html_url'],
     }

@@ -7,6 +7,23 @@ title: Current Projects
 
 Projects that are mostly current (or at least recently updated)
 
+## Django Work
+
+{% for project_hash in site.data.github.django %}
+{% assign project = project_hash[1] %}
+* [{{ project.name}}]({{ project.url }}) {{ project.description }}
+{% endfor %}
+
+## Alfred Work
+
+I use [Alfred](https://www.alfredapp.com/) a lot to help automate various tasks, so over time, I have built a few plugins for my own use.
+
+{% for project_hash in site.data.github.alfred %}
+{% assign project = project_hash[1] %}
+* [{{ project.name}}]({{ project.url }}) {{ project.description }}
+{% endfor %}
+
+
 ## Python GNTP Library
 
 ![image](https://img.shields.io/github/license/kfdm/gntp.svg)
@@ -22,12 +39,9 @@ Used within my channel on GameSurge, I wrote an irc bot from scratch using pytho
 
 { [kfdm/purplebot](https://github.com/kfdm/purplebot) }
 
-## Misc scripts
-I've written various other scripts.  For irssi I've written [irssi-nohilite](https://github.com/kfdm/irssi-nohilight) and
-[irssi-growl](https://github.com/kfdm/irssi-growl) by hacking together a bit of perl code.
+## irssi Scripts
 
-I wrote [iTunes-lyrics-artwork](https://github.com/kfdm/itunes-lyrics-artwork) to figure out songs in my library that were missing
-artwork or lyrics.
-
-I wrote [radio-growl](https://github.com/kfdm/radio-growl) and [radio](https://github.com/kfdm/radio)
-to notify me what songs were playing on a radio station I enjoy.
+{% for project_hash in site.data.github.irssi %}
+{% assign project = project_hash[1] %}
+* [{{ project.name}}]({{ project.url }}) {{ project.description }}
+{% endfor %}
