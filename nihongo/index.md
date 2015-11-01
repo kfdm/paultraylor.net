@@ -13,5 +13,5 @@ section: future
     {% if year != nyear %}
 ## {{ post.date | date: "%Y" }}
     {% endif %}
- * [{{ post.date | date: "%Y年%m月%d日" }} &raquo; {{ post.title }}]({{ post.url }})
+ * [{{ post.date | date: "%Y年%m月%d日" }} &raquo; {{ post.title }}]({{ post.url }}) {% if post.tags %}{{ post.tags }}{% endif %}
 {% endfor %}
