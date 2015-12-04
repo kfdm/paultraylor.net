@@ -2,7 +2,6 @@
 layout: post
 title: "忘れられない準備"
 date: "2015-12-01"
-published: false
 tags:
   - 宿題
 ---
