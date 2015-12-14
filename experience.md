@@ -14,7 +14,9 @@ title: Experience
 
 ### [Upsight](http://www.upsight.com)
 
-September 2011 - December 2014
+**September 2011 - December 2014**
+
+*Analytics and marketing platform for web & mobile app developers.*
 
 #### Development VM Environment
 
@@ -66,7 +68,9 @@ Supported legacy ETL systems by improving error handling and monitoring
 
 ### [WeGame.com](https://www.crunchbase.com/organization/wegame)
 
-March 2008 - August 2011
+**March 2008 - August 2011**
+
+*A social platform for gamers, which allowed them to build a gamer-social-and-interest graph through other users' recommendations*
 
 At WeGame I was the lead web engineer where my responsibilities covered work
 on the main web site, media processing system, and server infrastructure .
@@ -77,7 +81,7 @@ on the main web site, media processing system, and server infrastructure .
 * Wrote admin system used by staff to control various aspects of running WeGame.com
 * Configuration and management of servers used to run WeGame (Web, Database, Media, Utility)
 
-##### Tools Used
+#### Tools Used
  * PHP
  * Python
  * MySQL
@@ -91,7 +95,7 @@ on the main web site, media processing system, and server infrastructure .
 
 ### [Department of Soil Science - North Carolina State University](http://www.soil.ncsu.edu/)
 
-May 2005 - August 2007
+**May 2005 - August 2007**
 
 While studying Computer Science at North Carolina State University, I worked for the Department of Soil Science in their Distance Education office.  My responsibilities were balanced between general system support for students and faculty, and other assorted computer tasks.
 
@@ -99,7 +103,7 @@ While studying Computer Science at North Carolina State University, I worked for
 * Configured and maintained Linux file server, web server, and domain server (samba, apache, ldap)
 * Updated and maintained department and faculty web sites (php, mysql)
 
-##### Tools Used
+#### Tools Used
  * PHP
  * Xen
  * Samba
@@ -111,18 +115,23 @@ While studying Computer Science at North Carolina State University, I worked for
 
 ### [Fukuoka YMCA](http://www.fukuoka-ymca.or.jp/japanese/course)
 
-April 2015 - Present
+**April 2015 - Present**
 
 Japanese course
 
 ### [Genki JACS](http://www.genkijacs.com/)
 
-January 2015 - March 2015
+**January 2015 - March 2015**
 
 Short term Japanese course
 
 ### [Department of Computer Science - North Carolina State University](http://www.csc.ncsu.edu/)
 
-August 2005 - December 2007
+**August 2005 - December 2007**
 
 Bachelors of Science in Computer Science
+
+## Awards / Qualifications
+
+* Japanese Language Proficiency Test N2 - July 2015
+* Eagle Scout - Boy Scouts of America - February 2003
