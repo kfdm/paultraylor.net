@@ -28,5 +28,5 @@ Current Interests:
 
 ## Recent Updates
 {% for post in site.posts limit:5 %}
- * {{ post.date | date_to_long_string }} [{{ post.title | capitalize }}]({{ post.url }}) [{{ post.categories | array_to_sentence_string }}]
+ * {{ post.date | date: "%Y-%m-%d" }} [{{ post.title | capitalize }}]({{ post.url }}) [{{ post.categories | array_to_sentence_string }}]
 {% endfor %}

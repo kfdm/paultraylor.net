@@ -6,5 +6,11 @@ section: about
 # Blog
 
 {% for post in site.categories.blog %}
- * {{ post.date | date_to_string }} &raquo; [{{ post.title }}]({{ post.url }})
+
+{% capture this_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture next_year %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+
+{% if this_year != next_year %}## {{ post.date | date: "%Y" }}年{% endif %}
+
+ * {{ post.date | date: "%Y-%m-%d" }} &raquo; [{{ post.title }}]({{ post.url }})
 {% endfor %}
