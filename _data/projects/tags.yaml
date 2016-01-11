@@ -46,7 +46,7 @@ kfdm/alfred-the-hit-list:
     description: 'Simple #alfred workflow for working with #thehitlist'
     html_url: https://github.com/kfdm/alfred-the-hit-list
     issues: https://github.com/kfdm/alfred-the-hit-list/issues
-    tags: [thehitlist, alfred]
+    tags: [alfred, thehitlist]
     wiki: https://github.com/kfdm/alfred-the-hit-list/wiki
 kfdm/alfred-thehitlist:
     html_url: https://github.com/kfdm/alfred-thehitlist
@@ -121,7 +121,7 @@ kfdm/gntp-regrowl:
     html_url: https://github.com/kfdm/gntp-regrowl
     issues: https://github.com/kfdm/gntp-regrowl/issues
     language: Python
-    tags: [growl, gntp]
+    tags: [gntp, growl]
 kfdm/growlme:
     description: 'small script to send yourself a #growl notification when a command
         finishes'

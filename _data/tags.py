@@ -56,7 +56,7 @@ for repo in json.loads(open('github.api.json').read()):
     if (now - pushed_at).total_seconds() > INACTIVE:
         project['tags'].add('inactive')
 
-    project['tags'] = list(project['tags'])
+    project['tags'] = sorted(list(project['tags']))
     if 'inactive' in project['tags']:
         inactive[repo['full_name']] = project
     elif project['tags']:

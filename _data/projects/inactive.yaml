@@ -1,6 +1,3 @@
-kfdm/OSXServices:
-    html_url: https://github.com/kfdm/OSXServices
-    tags: [inactive]
 kfdm/adium-logs:
     description: Parses an Adium logfile and converts it into a text only format
     html_url: https://github.com/kfdm/adium-logs
@@ -18,31 +15,13 @@ kfdm/chibi-skulk:
     issues: https://github.com/kfdm/chibi-skulk/issues
     language: Perl
     tags: [inactive]
-kfdm/ical-growl:
-    description: Basic growl notifications from iCal
-    html_url: https://github.com/kfdm/ical-growl
-    issues: https://github.com/kfdm/ical-growl/issues
-    language: Ruby
-    tags: [inactive]
 kfdm/itunes-lyrics-artwork:
     description: Scan library to find tracks missing lyrics or artwork
     html_url: https://github.com/kfdm/itunes-lyrics-artwork
     issues: https://github.com/kfdm/itunes-lyrics-artwork/issues
     tags: [inactive]
-kfdm/kohana-migrate:
-    description: Migration code for Kohana 2.1
-    html_url: https://github.com/kfdm/kohana-migrate
-    issues: https://github.com/kfdm/kohana-migrate/issues
-    language: PHP
-    tags: [inactive]
 kfdm/murasaki:
     description: Old prototype game engine
     html_url: https://github.com/kfdm/murasaki
     language: C#
-    tags: [inactive]
-kfdm/pydefaults:
-    description: Python module loosely based on OSX's defaults system
-    html_url: https://github.com/kfdm/pydefaults
-    issues: https://github.com/kfdm/pydefaults/issues
-    language: Python
     tags: [inactive]
