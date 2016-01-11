@@ -46,7 +46,7 @@ kfdm/alfred-the-hit-list:
     description: 'Simple #alfred workflow for working with #thehitlist'
     html_url: https://github.com/kfdm/alfred-the-hit-list
     issues: https://github.com/kfdm/alfred-the-hit-list/issues
-    tags: [alfred, thehitlist]
+    tags: [thehitlist, alfred]
     wiki: https://github.com/kfdm/alfred-the-hit-list/wiki
 kfdm/alfred-thehitlist:
     html_url: https://github.com/kfdm/alfred-thehitlist
@@ -104,18 +104,31 @@ kfdm/django-timezone:
     language: Python
     tags: [django]
     wiki: https://github.com/kfdm/django-timezone/wiki
+kfdm/dotfiles:
+    description: '#Dotfiles for @kfdm'
+    html_url: https://github.com/kfdm/dotfiles
+    issues: https://github.com/kfdm/dotfiles/issues
+    language: VimL
+    tags: [dotfiles]
 kfdm/gntp:
-    description: GNTP Python Library
+    description: 'GNTP Python Library - #growl #gntp'
     html_url: https://github.com/kfdm/gntp
     issues: https://github.com/kfdm/gntp/issues
     language: Python
-    tags: [django]
+    tags: [django, gntp, growl]
 kfdm/gntp-regrowl:
-    description: Regrowl GNTP messages on OSX
+    description: 'Regrowl GNTP messages on OSX - #growl #gntp'
     html_url: https://github.com/kfdm/gntp-regrowl
     issues: https://github.com/kfdm/gntp-regrowl/issues
     language: Python
-    tags: [gntp]
+    tags: [growl, gntp]
+kfdm/growlme:
+    description: 'small script to send yourself a #growl notification when a command
+        finishes'
+    html_url: https://github.com/kfdm/growlme
+    issues: https://github.com/kfdm/growlme/issues
+    language: Python
+    tags: [growl]
 kfdm/irssi-growl:
     description: Growl notification script for irssi
     html_url: https://github.com/kfdm/irssi-growl
@@ -128,6 +141,25 @@ kfdm/irssi-nohilight:
     issues: https://github.com/kfdm/irssi-nohilight/issues
     language: Perl
     tags: [irssi]
+kfdm/kfdm.github.com:
+    description: 'My #blog where I write about various things'
+    html_url: https://github.com/kfdm/kfdm.github.com
+    issues: https://github.com/kfdm/kfdm.github.com/issues
+    language: CSS
+    tags: [blog]
+    wiki: https://github.com/kfdm/kfdm.github.com/wiki
+kfdm/purplebot:
+    description: '#IRC Bot Written in Python'
+    html_url: https://github.com/kfdm/purplebot
+    issues: https://github.com/kfdm/purplebot/issues
+    language: Python
+    tags: [irc]
+kfdm/radio-growl:
+    description: 'AnimeNFO Radio #Growl'
+    html_url: https://github.com/kfdm/radio-growl
+    issues: https://github.com/kfdm/radio-growl/issues
+    language: Python
+    tags: [growl]
 kfdm/salt-config:
     description: Salt states and modules for manipulating config files
     html_url: https://github.com/kfdm/salt-config
@@ -149,3 +181,10 @@ kfdm/salt-repl:
     language: Python
     tags: [salt]
     wiki: https://github.com/kfdm/salt-repl/wiki
+kfdm/wanikani:
+    description: 'Tools for tracking progress with WaniKani - #wanikani'
+    html_url: https://github.com/kfdm/wanikani
+    issues: https://github.com/kfdm/wanikani/issues
+    language: Python
+    tags: [wanikani]
+    wiki: https://github.com/kfdm/wanikani/wiki
