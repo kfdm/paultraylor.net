@@ -132,13 +132,18 @@
       "name": "kfdm/alfred-language-switcher",
       "url": "https://github.com/kfdm/alfred-language-switcher"
     },
+    "kfdm/alfred-pomodoro": {
+      "description": "Simple #Alfred plugin to trigger a new pomodoro",
+      "name": "kfdm/alfred-pomodoro",
+      "url": "https://github.com/kfdm/alfred-pomodoro"
+    },
     "kfdm/alfred-renshuu": {
       "description": "Quick search plugin for https://www.renshuu.org/",
       "name": "kfdm/alfred-renshuu",
       "url": "https://github.com/kfdm/alfred-renshuu"
     },
     "kfdm/alfred-roulette": {
-      "description": "Experimental Alfred plugin to select a random item from ToDo lists / GitHub Issues",
+      "description": "Experimental #Alfred plugin to select a random item from ToDo lists / GitHub Issues",
       "name": "kfdm/alfred-roulette",
       "url": "https://github.com/kfdm/alfred-roulette"
     },
@@ -147,6 +152,11 @@
       "name": "kfdm/alfred-salt",
       "url": "https://github.com/kfdm/alfred-salt"
     },
+    "kfdm/alfred-the-hit-list": {
+      "description": "Simple #alfred workflow for working with #thehitlist",
+      "name": "kfdm/alfred-the-hit-list",
+      "url": "https://github.com/kfdm/alfred-the-hit-list"
+    },
     "kfdm/alfred-thehitlist": {
       "description": "",
       "name": "kfdm/alfred-thehitlist",
@@ -154,10 +164,10 @@
     }
   },
   "django": {
-    "kfdm/django-cal-log": {
-      "description": "Simple logging into a ical object",
-      "name": "kfdm/django-cal-log",
-      "url": "https://github.com/kfdm/django-cal-log"
+    "kfdm/django-feedcal": {
+      "description": "Atom Feed and iCalendar manipulation",
+      "name": "kfdm/django-feedcal",
+      "url": "https://github.com/kfdm/django-feedcal"
     },
     "kfdm/django-growl": {
       "description": "Django endpoint to forward growl (gntp) notifications",
@@ -188,6 +198,11 @@
       "description": "Simple stats for my own use.",
       "name": "kfdm/django-simplestats",
       "url": "https://github.com/kfdm/django-simplestats"
+    },
+    "kfdm/django-timezone": {
+      "description": "Temporary Timezone app #django",
+      "name": "kfdm/django-timezone",
+      "url": "https://github.com/kfdm/django-timezone"
     }
   },
   "gntp": {

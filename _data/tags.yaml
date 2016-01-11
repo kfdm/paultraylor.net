@@ -1,0 +1,151 @@
+kfdm/alfred-clear:
+    html_url: https://github.com/kfdm/alfred-clear
+    issues: https://github.com/kfdm/alfred-clear/issues
+    language: Python
+    tags: [alfred]
+    wiki: https://github.com/kfdm/alfred-clear/wiki
+kfdm/alfred-cli:
+    description: Alfred plugins
+    html_url: https://github.com/kfdm/alfred-cli
+    issues: https://github.com/kfdm/alfred-cli/issues
+    language: Python
+    tags: [alfred]
+kfdm/alfred-language-switcher:
+    html_url: https://github.com/kfdm/alfred-language-switcher
+    issues: https://github.com/kfdm/alfred-language-switcher/issues
+    tags: [alfred]
+    wiki: https://github.com/kfdm/alfred-language-switcher/wiki
+kfdm/alfred-pomodoro:
+    description: 'Simple #Alfred plugin to trigger a new pomodoro'
+    html_url: https://github.com/kfdm/alfred-pomodoro
+    issues: https://github.com/kfdm/alfred-pomodoro/issues
+    tags: [alfred]
+    wiki: https://github.com/kfdm/alfred-pomodoro/wiki
+kfdm/alfred-renshuu:
+    description: Quick search plugin for https://www.renshuu.org/
+    html_url: https://github.com/kfdm/alfred-renshuu
+    issues: https://github.com/kfdm/alfred-renshuu/issues
+    language: Python
+    tags: [alfred]
+    wiki: https://github.com/kfdm/alfred-renshuu/wiki
+kfdm/alfred-roulette:
+    description: 'Experimental #Alfred plugin to select a random item from ToDo lists
+        / GitHub Issues'
+    html_url: https://github.com/kfdm/alfred-roulette
+    issues: https://github.com/kfdm/alfred-roulette/issues
+    language: Python
+    tags: [alfred]
+kfdm/alfred-salt:
+    description: Control Salt from Alfred by using the salt-api
+    html_url: https://github.com/kfdm/alfred-salt
+    issues: https://github.com/kfdm/alfred-salt/issues
+    language: Python
+    tags: [alfred]
+    wiki: https://github.com/kfdm/alfred-salt/wiki
+kfdm/alfred-the-hit-list:
+    description: 'Simple #alfred workflow for working with #thehitlist'
+    html_url: https://github.com/kfdm/alfred-the-hit-list
+    issues: https://github.com/kfdm/alfred-the-hit-list/issues
+    tags: [alfred, thehitlist]
+    wiki: https://github.com/kfdm/alfred-the-hit-list/wiki
+kfdm/alfred-thehitlist:
+    html_url: https://github.com/kfdm/alfred-thehitlist
+    issues: https://github.com/kfdm/alfred-thehitlist/issues
+    tags: [alfred]
+kfdm/django-feedcal:
+    description: Atom Feed and iCalendar manipulation
+    html_url: https://github.com/kfdm/django-feedcal
+    issues: https://github.com/kfdm/django-feedcal/issues
+    language: Python
+    tags: [django]
+kfdm/django-growl:
+    description: Django endpoint to forward growl (gntp) notifications
+    html_url: https://github.com/kfdm/django-growl
+    issues: https://github.com/kfdm/django-growl/issues
+    language: Python
+    tags: [django]
+    wiki: https://github.com/kfdm/django-growl/wiki
+kfdm/django-location:
+    description: Mixing Django and IFTT Location Data
+    html_url: https://github.com/kfdm/django-location
+    issues: https://github.com/kfdm/django-location/issues
+    language: Python
+    tags: [django]
+    wiki: https://github.com/kfdm/django-location/wiki
+kfdm/django-pomodoro:
+    description: Render a pomodoro calendar as an ical document
+    html_url: https://github.com/kfdm/django-pomodoro
+    issues: https://github.com/kfdm/django-pomodoro/issues
+    language: Python
+    tags: [django]
+kfdm/django-powerplug:
+    html_url: https://github.com/kfdm/django-powerplug
+    issues: https://github.com/kfdm/django-powerplug/issues
+    language: Python
+    tags: [django]
+kfdm/django-qdb:
+    description: Quote module for Django
+    html_url: https://github.com/kfdm/django-qdb
+    issues: https://github.com/kfdm/django-qdb/issues
+    language: Python
+    tags: [django]
+    wiki: https://github.com/kfdm/django-qdb/wiki
+kfdm/django-simplestats:
+    description: Simple stats for my own use.
+    html_url: https://github.com/kfdm/django-simplestats
+    issues: https://github.com/kfdm/django-simplestats/issues
+    language: Python
+    tags: [django]
+    wiki: https://github.com/kfdm/django-simplestats/wiki
+kfdm/django-timezone:
+    description: 'Temporary Timezone app #django'
+    html_url: https://github.com/kfdm/django-timezone
+    issues: https://github.com/kfdm/django-timezone/issues
+    language: Python
+    tags: [django]
+    wiki: https://github.com/kfdm/django-timezone/wiki
+kfdm/gntp:
+    description: GNTP Python Library
+    html_url: https://github.com/kfdm/gntp
+    issues: https://github.com/kfdm/gntp/issues
+    language: Python
+    tags: [django]
+kfdm/gntp-regrowl:
+    description: Regrowl GNTP messages on OSX
+    html_url: https://github.com/kfdm/gntp-regrowl
+    issues: https://github.com/kfdm/gntp-regrowl/issues
+    language: Python
+    tags: [gntp]
+kfdm/irssi-growl:
+    description: Growl notification script for irssi
+    html_url: https://github.com/kfdm/irssi-growl
+    issues: https://github.com/kfdm/irssi-growl/issues
+    language: Perl
+    tags: [irssi]
+kfdm/irssi-nohilight:
+    description: Ignore hilights from certain nicks
+    html_url: https://github.com/kfdm/irssi-nohilight
+    issues: https://github.com/kfdm/irssi-nohilight/issues
+    language: Perl
+    tags: [irssi]
+kfdm/salt-config:
+    description: Salt states and modules for manipulating config files
+    html_url: https://github.com/kfdm/salt-config
+    issues: https://github.com/kfdm/salt-config/issues
+    language: Python
+    tags: [salt]
+    wiki: https://github.com/kfdm/salt-config/wiki
+kfdm/salt-gntp:
+    description: Send gntp (growl) messages from Salt
+    html_url: https://github.com/kfdm/salt-gntp
+    issues: https://github.com/kfdm/salt-gntp/issues
+    language: Python
+    tags: [salt]
+    wiki: https://github.com/kfdm/salt-gntp/wiki
+kfdm/salt-repl:
+    description: Experimental Salt REPL
+    html_url: https://github.com/kfdm/salt-repl
+    issues: https://github.com/kfdm/salt-repl/issues
+    language: Python
+    tags: [salt]
+    wiki: https://github.com/kfdm/salt-repl/wiki
