@@ -14,7 +14,7 @@ layout: default
         {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
 
         {% if page.tags.size > 0 %}
-        [{% for tag in page.tags %}<a href="/tags.html">{{ tag }}</a>{% endfor %}]
+        [{% for tag in page.tags %}<a href="/tags/">{{ tag }}</a>{% endfor %}]
         {% endif %}
     </p>
   </header>
