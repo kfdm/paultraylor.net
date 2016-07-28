@@ -1,6 +1,7 @@
 exclude:
   - README.md
   - CNAME
+  - Gemfile*
 url: http://paultraylor.net
 name: Paul Traylor
 permalink: /:categories/:title.html
