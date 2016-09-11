@@ -2,6 +2,8 @@ exclude:
   - README.md
   - CNAME
   - Gemfile*
+include:
+  - .well-known
 url: http://paultraylor.net
 name: Paul Traylor
 permalink: /:categories/:title.html
