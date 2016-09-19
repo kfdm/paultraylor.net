@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Python GNTP Library"
 github: kfdm/gntp
 summary: Python library for Growl Network Protocol
