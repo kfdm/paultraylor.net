@@ -1,0 +1,8 @@
+---
+layout: tags
+summary: 音楽について
+---
+
+{% for post in site.tags['音楽'] %}
+* {{ post.date | date: "%Y-%m-%d" }} [{{ post.title | capitalize }}]({{ post.url }}) [{{ post.categories | array_to_sentence_string }}]
+{% endfor %}
