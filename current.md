@@ -7,7 +7,9 @@ title: Current Projects
 
 Projects that are mostly current (or at least recently updated)
 
-{% for post in site.tags['Current Project'] %}
+{% assign projects = site.categories.projects|where:"active",true|sort:"title" %}
+{% for post in projects %}
+
 ## [{{ post.title }}]({{ post.url }})
 
 <!-- {% if post.github %}[![GitHub issues](https://img.shields.io/github/issues/{{ post.github }}.svg?maxAge=2592000)](https://github.com/{{ post.github }}){% endif %} -->

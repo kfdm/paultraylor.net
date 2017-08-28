@@ -3,8 +3,7 @@ layout: project
 title: "Python GNTP Library"
 github: kfdm/gntp
 summary: Python library for Growl Network Protocol
-tags:
-- Current Project
+active: true
 ---
 
 ![image](https://img.shields.io/github/license/kfdm/gntp.svg)
