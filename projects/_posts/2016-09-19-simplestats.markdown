@@ -4,6 +4,11 @@ title: "simplestats"
 github: kfdm/django-simplestats
 summary: Personal project for exploring quantified self
 active: true
+tags:
+- time-management
+- quantified-self
+- python
+- swift
 ---
 
 A django app for exploring things around the quantified self movement

@@ -4,6 +4,10 @@ title: "Timebox"
 summary: Various time management tools inspired by Pomodoro timers
 github: kfdm/ios-pomodoro
 active: true
+tags:
+- python
+- swift
+- time-management
 ---
 
 Various time management tools inspired by Pomodoro timers
