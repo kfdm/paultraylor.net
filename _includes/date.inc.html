@@ -1,0 +1,5 @@
+{% if page.lang == 'ja' %}
+    {{ page.date | date: "%Y年%m月%d日" }}
+{% else %}
+    {{ page.date | date: "%b %-d, %Y" }}
+{% endif %}

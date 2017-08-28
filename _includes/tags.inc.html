@@ -1,0 +1,5 @@
+<ul class="list-inline">
+    {% for tag in page.tags %}
+    <li><a href="/tags/{{ tag }}"><span class="label label-default">{{ tag }}</span></a></li>
+    {% endfor %}
+</ul>

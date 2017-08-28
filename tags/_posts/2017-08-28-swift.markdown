@@ -1,0 +1,8 @@
+---
+layout: tags
+summary: Posts about Swift
+---
+
+{% for post in site.tags.python %}
+* {{ post.date | date: "%Y-%m-%d" }} [{{ post.title | capitalize }}]({{ post.url }}) [{{ post.categories | array_to_sentence_string }}]
+{% endfor %}

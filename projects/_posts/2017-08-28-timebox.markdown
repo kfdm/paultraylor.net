@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Timebox"
 summary: Various time management tools inspired by Pomodoro timers
 github: kfdm/ios-pomodoro
@@ -9,5 +9,6 @@ tags:
 - swift
 - time-management
 ---
+
 
 Various time management tools inspired by Pomodoro timers
