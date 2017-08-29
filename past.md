@@ -8,6 +8,17 @@ title: Past Projects
 
 Assorted interesting bits that helped get me to where I am today
 
+
+{% assign projects = site.categories.projects|where:"active",false|sort:"title" %}
+{% for post in projects %}
+
+## [{{ post.title }}]({{ post.url }})
+{% if post.tags.size > 0 %}{% include tags.inc.html %}{% endif %}
+{% if post.badges.size > 0 %}{% include badges.inc.html %}{% endif %}
+{{ post.summary }}
+
+{% endfor %}
+
 ## Web Framework - PHP/MySQL
 
 Started in the later part of my senior year of High School, I wrote a PHP framework that I used to power older versions of my site.

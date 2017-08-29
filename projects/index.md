@@ -14,6 +14,9 @@ Projects that are mostly current (or at least recently updated)
 {% for post in projects %}
 
 ## [{{ post.title }}]({{ post.url }})
+{% if post.tags.size > 0 %}{% include tags.inc.html %}{% endif %}
+{% if post.badges.size > 0 %}{% include badges.inc.html %}{% endif %}
+
 
 <!-- {% if post.github %}[![GitHub issues](https://img.shields.io/github/issues/{{ post.github }}.svg?maxAge=2592000)](https://github.com/{{ post.github }}){% endif %} -->
 

@@ -13,6 +13,7 @@ section: current
             {% include date.inc.html %}
             {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
             {% if page.tags.size > 0 %}{% include tags.inc.html %}{% endif %}
+            {% if page.badges.size > 0 %}{% include badges.inc.html %}{% endif %}
         </p>
     </header>
     <article class="post-content">

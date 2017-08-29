@@ -1,0 +1,9 @@
+<ul class="list-inline">
+    {% for badge in post.badges %}
+    {% if badge[1] %}
+    <li><a href="{{badge[1]}}"><img src="{{ badge[0] }}" /></a></li>
+    {% else %}
+    <li><img src="{{ badge }}" /></li>
+    {% endif %}
+    {% endfor %}
+</ul>
