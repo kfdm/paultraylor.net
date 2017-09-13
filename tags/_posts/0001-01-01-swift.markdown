@@ -3,6 +3,6 @@ layout: tags
 excerpt: Posts about Swift
 ---
 
-{% for post in site.tags.python %}
+{% for post in site.tags.swift %}
 * {{ post.date | date: "%Y-%m-%d" }} [{{ post.title | capitalize }}]({{ post.url }}) [{{ post.categories | array_to_sentence_string }}]
 {% endfor %}

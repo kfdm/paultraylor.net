@@ -15,7 +15,7 @@ Current Interests:
 * Configuration and automation using [SaltStack](https://github.com/saltstack/salt)
 * Scheduling and Calendar applications using [iCalendar](https://github.com/collective/icalendar)
 * Visualizing data using [Google Charts API](https://developers.google.com/chart/)
-  * [WaniKani Reviews]({% post_url 2015-05-08-wanikani-charts %})
+  * [WaniKani Reviews]({% link blog/_posts/2015-05-08-wanikani-charts.md %})
 * Building modular sites using [Django](https://www.djangoproject.com/) and [Django Rest Framework](http://www.django-rest-framework.org/)
   * [django-pomodoro](https://github.com/kfdm/django-pomodoro)
   * [django-quotedb](https://github.com/kfdm/django-qdb/)

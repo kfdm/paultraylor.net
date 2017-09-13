@@ -2,7 +2,7 @@
 layout: project
 title: "Python GNTP Library"
 github: kfdm/gntp
-summary: Python library for Growl Network Protocol
+excerpt: Python library for Growl Network Protocol
 active: false
 tags:
 - python
