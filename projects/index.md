@@ -20,6 +20,6 @@ Projects that are mostly current (or at least recently updated)
 
 <!-- {% if post.github %}[![GitHub issues](https://img.shields.io/github/issues/{{ post.github }}.svg?maxAge=2592000)](https://github.com/{{ post.github }}){% endif %} -->
 
-{{ post.summary }}
+{{ post.excerpt }}
 
 {% endfor %}

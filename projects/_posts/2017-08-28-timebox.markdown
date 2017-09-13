@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Timebox"
-summary: Various time management tools inspired by Pomodoro timers
+excerpt_separator: <!--more-->
 github: kfdm/ios-pomodoro
 active: true
 tags:
@@ -10,5 +10,6 @@ tags:
 - time-management
 ---
 
-
 Various time management tools inspired by Pomodoro timers
+
+<!--more-->

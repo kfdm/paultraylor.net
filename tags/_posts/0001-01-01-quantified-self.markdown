@@ -1,6 +1,6 @@
 ---
 layout: tags
-summary: Posts about Quantified Self
+excerpt: Posts about Quantified Self
 ---
 
 {% for post in site.tags.quantified-self %}

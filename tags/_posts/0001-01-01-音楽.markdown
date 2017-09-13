@@ -1,6 +1,6 @@
 ---
 layout: tags
-summary: 音楽について
+excerpt: 音楽について
 ---
 
 {% for post in site.tags['音楽'] %}

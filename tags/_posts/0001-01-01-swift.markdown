@@ -1,6 +1,6 @@
 ---
 layout: tags
-summary: Posts about Swift
+excerpt: Posts about Swift
 ---
 
 {% for post in site.tags.python %}

@@ -1,6 +1,6 @@
 ---
 layout: tags
-summary: Posts about Time Management
+excerpt: Posts about Time Management
 ---
 
 {% for post in site.tags.time-management %}
