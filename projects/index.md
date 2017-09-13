@@ -14,7 +14,7 @@ Projects that are mostly current (or at least recently updated)
 {% for post in projects %}
 
 ## [{{ post.title }}]({{ post.url }})
-{% if post.tags.size > 0 %}{% include tags.inc.html %}{% endif %}
+{% if post.tags.size > 0 %}{% include tags.inc.html tags=post.tags %}{% endif %}
 {% if post.badges.size > 0 %}{% include badges.inc.html %}{% endif %}
 
 

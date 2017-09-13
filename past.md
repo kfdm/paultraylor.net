@@ -13,7 +13,7 @@ Assorted interesting bits that helped get me to where I am today
 {% for post in projects %}
 
 ## [{{ post.title }}]({{ post.url }})
-{% if post.tags.size > 0 %}{% include tags.inc.html %}{% endif %}
+{% if post.tags.size > 0 %}{% include tags.inc.html tags=post.tags %}{% endif %}
 {% if post.badges.size > 0 %}{% include badges.inc.html %}{% endif %}
 
 
