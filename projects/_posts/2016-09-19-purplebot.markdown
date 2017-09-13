@@ -2,7 +2,7 @@
 layout: project
 title: "purplebot"
 github: kfdm/purplebot
-summary: Personal IRC Bot
+excerpt: IRC Bot written from scratch in Python as a project to experiment with
 active: true
 tags:
 - python

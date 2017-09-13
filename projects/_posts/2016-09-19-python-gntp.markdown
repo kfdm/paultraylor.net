@@ -2,11 +2,14 @@
 layout: project
 title: "Python GNTP Library"
 github: kfdm/gntp
-summary: Python library for Growl Network Protocol
+excerpt_separator: <!--more-->
 active: true
 tags:
 - python
 ---
+
+Python library for Growl Network Protocol
+<!--more-->
 
 ![image](https://img.shields.io/github/license/kfdm/gntp.svg)
 ![image](https://img.shields.io/github/issues/kfdm/gntp.svg)

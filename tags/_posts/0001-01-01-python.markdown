@@ -1,6 +1,6 @@
 ---
 layout: tags
-summary: Posts about Python
+excerpt: Posts about Python
 ---
 
 {% for post in site.tags.python %}
