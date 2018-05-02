@@ -4,7 +4,7 @@ exclude:
   - Gemfile*
 include:
   - .well-known
-url: http://paultraylor.net
+url: https://paultraylor.net
 name: Paul Traylor
 permalink: /:categories/:title.html
 timezone: Asia/Tokyo

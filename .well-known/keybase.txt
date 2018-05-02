@@ -4,7 +4,7 @@ https://keybase.io/kfdm
 
 I hereby claim:
 
-  * I am an admin of http://paultraylor.net
+  * I am an admin of https://paultraylor.net
   * I am kfdm (https://keybase.io/kfdm) on keybase.
   * I have a public key with fingerprint C1A7 7DCA 15E6 664A 615E  325D 5735 679A C6FE 5394
 
