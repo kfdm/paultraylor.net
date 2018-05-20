@@ -1,7 +1,8 @@
 exclude:
-  - README.md
   - CNAME
   - Gemfile*
+  - Makefile
+  - README.md
 include:
   - .well-known
 url: https://paultraylor.net
@@ -24,12 +25,14 @@ defaults:
       path: "blog"
     values:
       section: about
+      permalink: /:categories/:title.html
   -
     scope:
       path: "nihongo"
     values:
       section: future
       lang: ja
+      permalink: /:categories/:title.html
 
 gems:
   - jekyll-feed

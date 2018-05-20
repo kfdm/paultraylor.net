@@ -2,6 +2,7 @@
 layout: default
 title: Blog Archive
 section: about
+permalink: /blog/
 ---
 # Blog
 

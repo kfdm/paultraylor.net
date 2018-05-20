@@ -2,6 +2,7 @@
 layout: default
 title: 日本語
 section: future
+permalink: /nihongo/
 ---
 # 日本語
 
