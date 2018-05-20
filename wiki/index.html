@@ -4,19 +4,21 @@ layout: wiki
 tags: []
 ---
 
-{% assign wikiPages = site.pages | where:"layout","wiki" %}
-{% assign sortedPages =  wikiPages | sort_natural:"url" %}
+{% assign wikiPages = site.pages | where:"layout","wiki" | sort_natural:"url"%}
 
-<ul class="list-unstyled">
+<dl class="row">
     {% for wiki in wikiPages %}
-    <li>
-        <a href="{{ wiki.url }}">{{ wiki.title | capitalize }}</a>
-        {% if wiki.tags %}
-            {% assign wikiTags = wiki.tags | sort %}
-            {% for tag in wikiTags %}
-            <a href="/tags/{{ tag }}"><span class="badge badge-secondary">{{ tag }}</span></a>
-            {% endfor %}
-        {% endif %}
-    </li>
+        <dt class="col-sm-3">
+            <a href="{{ wiki.url }}">{{ wiki.title | capitalize }}</a>
+        </dt>
+        <dd class="col-sm-9">
+            {{tag.excerpt}}
+            {% if wiki.tags %}
+                {% assign wikiTags = wiki.tags | sort %}
+                {% for tag in wikiTags %}
+                <a href="/tags/{{ tag }}"><span class="badge badge-secondary">{{ tag }}</span></a>
+                {% endfor %}
+            {% endif %}
+        </dd>
     {% endfor %}
-</ul>
+</dl>

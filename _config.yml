@@ -35,15 +35,15 @@ defaults:
       permalink: /:categories/:title.html
   -
     scope:
-      path: ""
-      type: tag_index
+      path: "tags"
     values:
-      layout: "tag.index"
+      layout: "tags"
+  -
+    scope:
+      path: "wiki"
+    values:
+      layout: "wiki"
 
-
-collections:
-  tag_index:
-    output: true
 
 plugins:
   - jekyll-feed

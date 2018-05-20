@@ -2,4 +2,5 @@
 tag: 宿題
 excerpt: 宿題について
 permalink: "/tags/宿題/"
+lang: ja
 ---
