@@ -27,4 +27,17 @@ section: current
     {% endfor %}
     </ul>
 
+    {% assign taggedPages = site.pages | where:"tags",page.tag %}
+    {% if taggedPages.size > 0 %}
+    <h2>Pages</h2>
+    {% assign sortedPages = taggedPages|sort %}
+    <ul>
+        {% for tagged in sortedPages %}
+        <li>
+            <a href="{{ tagged.url }}">{{ tagged.title | capitalize }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
 </div>
