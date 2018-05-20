@@ -21,6 +21,18 @@ Current Interests:
   * [django-quotedb](https://github.com/kfdm/django-qdb/)
   * [django-simplestats](https://github.com/kfdm/django-simplestats)
 
+## Tags
+
+<ul class="list-inline">
+{% assign sortedTags = site.tags | sort %}
+{% for tag in sortedTags %}
+    <li class="list-inline-item">
+        <a href="/tags/{{ tag[0] }}"><span class="badge badge-secondary">{{ tag[0] }}</span></a>
+    </li>
+{% endfor %}
+</ul>
+
+
 ## Recent Updates
 {% for post in site.posts limit:5 %}
  * {{ post.date | date: "%Y-%m-%d" }} [{{ post.title | capitalize }}]({{ post.url }}) [{{ post.categories | array_to_sentence_string }}]

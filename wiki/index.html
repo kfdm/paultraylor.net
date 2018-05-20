@@ -1,0 +1,22 @@
+---
+title: Wiki Index
+layout: wiki
+tags: []
+---
+
+{% assign wikiPages = site.pages | where:"layout","wiki" %}
+{% assign sortedPages =  wikiPages | sort_natural:"url" %}
+
+<ul class="list-unstyled">
+    {% for wiki in wikiPages %}
+    <li>
+        <a href="{{ wiki.url }}">{{ wiki.title | capitalize }}</a>
+        {% if wiki.tags %}
+            {% assign wikiTags = wiki.tags | sort %}
+            {% for tag in wikiTags %}
+            <a href="/tags/{{ tag }}"><span class="badge badge-secondary">{{ tag }}</span></a>
+            {% endfor %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

@@ -30,7 +30,7 @@ section: current
     {% assign taggedPages = site.pages | where:"tags",page.tag %}
     {% if taggedPages.size > 0 %}
     <h2>Pages</h2>
-    {% assign sortedPages = taggedPages|sort %}
+    {% assign sortedPages = taggedPages|sort:"url" %}
     <ul>
         {% for tagged in sortedPages %}
         <li>
