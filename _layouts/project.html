@@ -4,10 +4,13 @@ section: current
 ---
 <div class="post">
     <header class="post-header">
-        <ol class="breadcrumb">
-            <li><a href="/{{page.categories.first}}/">{{page.categories.first}}</a></li>
-            <li class="active">{{page.title}}</li>
-        </ol>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/{{page.categories.first}}/">{{page.categories.first}}</a></li>
+                <li class="breadcrumb-item active">{{page.title}}</li>
+            </ol>
+        </nav>
+
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-meta">
             {% include date.inc.html %}

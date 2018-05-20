@@ -4,10 +4,12 @@ section: current
 ---
 <div class="post">
     <header class="post-header">
-        <ol class="breadcrumb">
-            <li><a href="/tags/">Tags</a></li>
-            <li class="active">{{page.title}}</li>
-        </ol>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/tags/">Tags</a></li>
+                <li class="breadcrumb-item active">{{page.title}}</li>
+            </ol>
+        </nav>
         <h1 class="post-title">{{ page.excerpt }}</h1>
     </header>
 
