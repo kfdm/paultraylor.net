@@ -33,6 +33,17 @@ defaults:
       section: future
       lang: ja
       permalink: /:categories/:title.html
+  -
+    scope:
+      path: ""
+      type: tag_index
+    values:
+      layout: "tag.index"
+
+
+collections:
+  tag_index:
+    output: true
 
 plugins:
   - jekyll-feed

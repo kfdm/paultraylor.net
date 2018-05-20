@@ -1,0 +1,5 @@
+---
+tag: 音楽
+excerpt: 好きな音楽など
+permalink: "/tags/音楽/"
+---
