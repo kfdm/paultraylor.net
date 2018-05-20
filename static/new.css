@@ -13,7 +13,6 @@ body {
 	font-size: 10pt;
 	font-family: "Lucida Grande", Arial, sans-serif;
 	background-color: white;
-	padding-top: 50px;
 }
 
 /****************************
@@ -90,7 +89,7 @@ section.experience h5 + ul li { display: inline; }
 ****************************/
 {% for color in page.colors %}
 header.{{ color.name }} div { background-color: {{ color.value }};}
-ul.nav li.{{ color.name }} { background-color: {{ color.value }}; }
+ul.navbar-nav li.{{ color.name }} { background-color: {{ color.value }}; }
 footer.{{ color.name }} { background-color: {{ color.value }}; }
 section.{{ color.name }} h1 { color: {{ color.value }}; }
 section.{{ color.name }} h2 { color: {{ color.value }}; }

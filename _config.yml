@@ -34,6 +34,6 @@ defaults:
       lang: ja
       permalink: /:categories/:title.html
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
