@@ -24,10 +24,10 @@ Current Interests:
 ## Tags
 
 <ul class="list-inline">
-{% assign sortedTags = site.tags | sort %}
+{% assign sortedTags = site.pages | where:"layout","tags" | sort_natural:"url"%}
 {% for tag in sortedTags %}
     <li class="list-inline-item">
-        <a href="/tags/{{ tag[0] }}"><span class="badge badge-secondary">{{ tag[0] }}</span></a>
+        <a href="/tags/{{ tag.tag }}"><span class="badge badge-secondary">{{ tag.tag }}</span></a>
     </li>
 {% endfor %}
 </ul>

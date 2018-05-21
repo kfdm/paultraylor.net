@@ -43,7 +43,11 @@ defaults:
       path: "wiki"
     values:
       layout: "wiki"
-
+  -
+    scope:
+      path: "projects"
+    values:
+      layout: "projects"
 
 plugins:
   - jekyll-feed
