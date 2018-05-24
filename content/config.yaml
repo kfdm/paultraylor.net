@@ -1,0 +1,4 @@
+baseURL: https://paultraylor.net
+disablePathToLower: true
+languageCode: en-us
+title: My New Hugo Site

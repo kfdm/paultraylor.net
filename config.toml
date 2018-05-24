@@ -1,0 +1,4 @@
+baseURL = "https://paultraylor.net"
+languageCode = "en-us"
+title = "Paul Traylor"
+theme = "kfdm"

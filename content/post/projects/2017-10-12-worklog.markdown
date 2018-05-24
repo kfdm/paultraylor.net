@@ -1,0 +1,15 @@
+---
+active: true
+date: "2017-10-12T00:00:00Z"
+excerpt: Keeping track of today's activities
+github: kfdm/alfred-worklog
+tags:
+- alfred
+- python
+- time-management
+title: worklog
+---
+
+Since it can be difficult to keep track of what I worked on that day, I've been experimenting with some scripts to make it easier to journal my days' activities. For now, most of it is bundled as an alfred workflow and is uploaded to github [alfred-worklog]
+
+[alfred-worklog]: https://github.com/kfdm/alfred-worklog

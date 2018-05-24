@@ -1,6 +1,0 @@
----
-tag: 漫画
-excerpt: 好きな漫画など
-permalink: "/tags/漫画/"
-lang: ja
----

@@ -1,0 +1,15 @@
+---
+active: true
+date: "2017-08-28T00:00:00Z"
+excerpt_separator: <!--more-->
+github: kfdm/ios-pomodoro
+tags:
+- python
+- swift
+- time-management
+title: Timebox
+---
+
+Various time management tools inspired by Pomodoro timers
+
+<!--more-->

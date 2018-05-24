@@ -1,0 +1,13 @@
+---
+date: "2018-05-22T22:37:53Z"
+title: test
+---
+
+<blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">
+        &quot;We&#39;re capable of discerning far more than we&#39;re capable of articulating.&quot;</p>&mdash; Dave Paola (@dpaola2)
+        <a href="https://twitter.com/dpaola2/status/656575987509936128?ref_src=twsrc%5Etfw">2015年10月20日</a>
+</blockquote>
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">&#39;Our Blessed Homeland&#39; (my cartoon for yesterday&#39;s <a href="https://twitter.com/guardianreview?ref_src=twsrc%5Etfw">@guardianreview</a>) - <a href="http://t.co/EliUnCOpIZ">pic.twitter.com/EliUnCOpIZ</a></p>&mdash; Tom Gauld (@tomgauld) <a href="https://twitter.com/tomgauld/status/571994690289061888?ref_src=twsrc%5Etfw">2015年3月1日</a></blockquote>
