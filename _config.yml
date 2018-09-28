@@ -28,13 +28,6 @@ defaults:
       permalink: /:categories/:title.html
   -
     scope:
-      path: "nihongo"
-    values:
-      section: future
-      lang: ja
-      permalink: /:categories/:title.html
-  -
-    scope:
       path: "tags"
     values:
       layout: "tags"
