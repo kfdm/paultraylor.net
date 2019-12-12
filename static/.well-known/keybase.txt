@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/kfdm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://paultraylor.net
+  * I am kfdm (https://keybase.io/kfdm) on keybase.
+  * I have a public key with fingerprint C1A7 7DCA 15E6 664A 615E  325D 5735 679A C6FE 5394
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ef2409348a445387c9e8c6fb11ca9c7699184d87cec52fd9c00f8d0f3fda80160a",
+      "fingerprint": "c1a77dca15e6664a615e325d5735679ac6fe5394",
+      "host": "keybase.io",
+      "key_id": "5735679ac6fe5394",
+      "kid": "0101feeb06bcd833f2d2bbb0deb31683fe2a7f6f0637a084c97c0113344471acd7c50a",
+      "uid": "2a7edc9f2415d70c12eca13975173e19",
+      "username": "kfdm"
+    },
+    "merkle_root": {
+      "ctime": 1525272905,
+      "hash_meta": "7317bdc5c1ed9eceb5f20eb5dde9e1794f7515dfa5407d6a047eddf95b040bf0",
+      "seqno": 2470624
+    },
+    "revoke": {
+      "sig_ids": [
+        "6732d70b3571adddc47f49e1489f4f432f931456effa5bef92d8a41f228864f50f"
+      ]
+    },
+    "service": {
+      "hostname": "paultraylor.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1525272933,
+  "expire_in": 157680000,
+  "prev": "6674cd8de3bafa7458e3ac363bfd52ee3e97d430f6796849c42bd0919bdc6e80",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMP/AnicbVNrbBVFGL2tFLXlJQgNDSgsQgVKM7szs7PbaqsVpEUgShVCW7jZ3Zlp
+L729e9n7KG0tgiBFAVFsUARK0EgLiJEYnoGoBW5vxdIHBJVqo8bw1CIJqRgiOttA
+Yoz7Z3dnznfO+c43c3LwfZ7khAW49P3YncL6hNPNkYin6Eonq5FMm1ZJWTVSOet/
+MT9lobC33EelLAnICmBcQUCHSDMQwlAjls40S+WmLFuGbhFV12UNUbHOLKxwqlsA
+cI0CDjk1NCCrwJAyJO4LlDIn6PgCYUFryQYh1DJkzFRVRYYqPqCCKSYQq0Q3BD3D
+UEeisMwOuRXCnGmEWKbPFmvix9tv73/w93wDmTNmAtW0qAYhV6himiagzISyqkHO
+FINwlQMVEgNoyNKJBWQZQoQQkQ2LEgv3+4700wkwo5YugpAxJcCSFSbMQ51gmUAm
+6y4wxJyAUcFcr5xWSLUZUgVzyv3M69h22A3WCvvcbRkrWCGKDrBozgiVeStY2BBV
+BMrEpBa2ZEZ1ZjETc5G9iSllOpOJjrhQw5QbGAFCVQMg4YlyHZsAAZMD4SHElgZs
+KUtBBKgKEg4cFrXLmSse8pWKyEJSVrGkEqiIJkyIRaeUUgsRjoQE0nSOOIIK16GM
+sMq40DIZ1xUqRi9zRdE0FXEMuLSo1hVzoj6rn9yd0d3eg0bEH3aMKr/tZAZYWJgK
+OnbYtmy/2CwLh4OhLDeacFXQRVcy03uXx2v6AlQcElERZU7IZwdEVAL5n9QgzJDY
+sqDPYV6fi8BE1YB4XB0WFZSqSpAYOWXQNLhBENYYNCyoQpNTrDAGmU4ogoCLc6Nq
+SLeQYlKgy7rIXmXav2KUVeHTKBWcIryAEY44TKpt/rJkgCch2TMwKdG9PZ7kB4fd
+u1MfNAz9u6wtejs+v6e6aVanVbgz7czjZ/I/3ho59t2SSbsvLB0TnTnyWHJq/epe
+7/RT6T/fXlK8v065vqOyL36ktHpJwfaBpxdP713w4p3q0drR7P03giHf+ktNGx57
+PbU5NnjL+gHnK7qHfJQYmDOLzu8bPvGVtsyMfO+GnKnpzoik6IeRuUdL9OY12VcG
+5Xz2xvdFh3+Y9+fFjc7oxZmpi6u6O/KuL9tVd6H44vLNfy3r2b52kL7pYt+lPKcb
+xFLP4dYCdl65Fb8yKqWr4ddxiY1Pt5/7rSslvuZ23ZapX4zLmrano2vGM7c+71jL
+Gk7XXIXbRtVeP+5/brb97tQnZz/bG/E8FEob9GP7yz/F6FP3T2wsTNxnvTY5Xt+R
+NuSUp31+S2PkWs4fB0q747MWLnx+eNnufYQUzeSRNyvlM1+d3RZnxXsmrWrPOzB+
+XnOMqUN7bq5ckTNmXuzyYO/l1o1lm+tzXxh4KKlz2OSDsUhNZcrcQ+CTuilra69N
+20XW9x1PO955Fj08YcjvSeVvNWX3th3MrU4sPLr3kSnKyq07TuQXNXlPHhnf0n5j
+2qWRe7PBttXvTdg5p6+l7dUeWhDtSmjwr5p9c8QT+U78nN2SyZJWbBpbTJLeKSm4
+sH3NiarcyXVbrQdw4+Hl68YWPPrNupQZ3FA8S6+m5b3k//TbXxY1VAx4u7Uk3udN
+T9dzMzypwdai5q9v/gOY4f5v
+=jH4u
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kfdm
+
+==================================================================

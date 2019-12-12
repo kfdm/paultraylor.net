@@ -1,6 +1,1 @@
-_data/github.api.json
-_site/
-.DS_Store
-.jekyll-metadata
-.sass-cache
-Gemfile.lock
+public/
