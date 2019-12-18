@@ -8,6 +8,7 @@ tags:
   - python
   - swift
   - time-management
+  - django
 ---
 
 Various time management tools inspired by Pomodoro timers

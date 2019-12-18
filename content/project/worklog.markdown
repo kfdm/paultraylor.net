@@ -4,6 +4,7 @@ title: Worklog
 github: kfdm/alfred-worklog
 excerpt: Keeping track of today's activities
 active: true
+url: /projects/worklog.html
 tags:
   - alfred
   - python

@@ -10,4 +10,4 @@ Partly inspired by apps such as [NotePlan] or the [friends] project, I'm intrigu
 [hugo]: https://gohugo.io
 [jekyll]: https://jekyllrb.com/
 [noteplan]: https://noteplan.co/
-[worklog]: https://paultraylor.net/projects/worklog.html
+[worklog]: /projects/worklog.html
