@@ -1,13 +1,13 @@
 ---
 title: make help
-original: 'https://gist.github.com/prwhite/8168133#gistcomment-2278355'
 date: '2018-12-13'
 url: /blog/make-help.html
 tags:
   - snippet
+summary: Useful snippet to add help text to a Makefile
 ---
 
-A useful I found from a [gist]({{page.original}}) that I have been using recently
+A useful I found from a [gist] that I have been using recently
 
 ```make
 # COLORS
@@ -45,3 +45,5 @@ mobi: clean_mobi create_foler_mobi
 ## Generate all files: website/pdf/epub/mobi
 all: website pdf epub mobi
 ```
+
+[gist]: https://gist.github.com/prwhite/8168133#gistcomment-2278355

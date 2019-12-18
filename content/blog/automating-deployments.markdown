@@ -1,16 +1,16 @@
 ---
 title: Automating deployments from GitHub using SaltStack
-repository: https://github.com/kfdm/salt-deployhook
-slides: https://www.slideshare.net/linecorp/automating-deployments-from-github-using-saltstack-125687922?ref=https://line.connpass.com/event/110448/presentation/
 date: '2018-12-10'
 url: /blog/automating-deployments.html
 tags:
-- saltstack
+  - saltstack
 ---
 
-This week I gave a presentation at [LINE Developer Meetup #47 in Fukuoka](https://line.connpass.com/event/110448/) entitled [{{page.title}}]({{page.slides}}).
+This week I gave a presentation at [LINE Developer Meetup #47 in Fukuoka](https://line.connpass.com/event/110448/) entitled [{{< param title >}}][slides].
 
-I have uploaded a [repository]({{page.repository}}) with more detailed instructions, but with a simple addition to the *salt-master* configuration
+<!--more-->
+
+I have uploaded a [repository] with more detailed instructions, but with a simple addition to the _salt-master_ configuration
 
 ```yaml
 # Ensure that our custom state tree can be found in addition
@@ -44,3 +44,6 @@ example/webapp:
         - args:
             - mods: mywebapp
 ```
+
+[repository]: https://github.com/kfdm/salt-deployhook
+[slides]: https://www.slideshare.net/linecorp/automating-deployments-from-github-using-saltstack-125687922?ref=https://line.connpass.com/event/110448/presentation/
