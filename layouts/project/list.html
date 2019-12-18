@@ -1,9 +1,9 @@
 {{ define "main" }}
 
-{{ range where .Data.Pages.ByDate "Section" "project" }}
-    {{ if eq .Params.active true }}
-        {{ .Render "summary" }}
-    {{ end }}
+{{ range where .Paginator.Pages "Params.active" true }}
+{{ .Render "summary" }}
 {{ end }}
+
+{{ partial "paginator" . }}
 
 {{ end }}
