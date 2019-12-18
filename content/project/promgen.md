@@ -12,6 +12,8 @@ badges:
     href: 'https://github.com/line/promgen/blob/master/LICENSE'
   - href: 'https://engineering.linecorp.com/en/opensource/'
     src: 'https://img.shields.io/badge/line-engineering-green'
+  - src: https://img.shields.io/github/issues/line/promgen
+    href: 'https://github.com/line/promgen/issues'
 ---
 
 Promgen is a configuration generator for [Prometheus] which I develop as part of my job at [LINE Fukuoka]
