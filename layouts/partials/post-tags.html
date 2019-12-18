@@ -1,17 +1,3 @@
-{{ if .Params.links }}
-<div class="blog-post-tags text-secondary">
-    <strong>Links:</strong>
-    {{ range $type, $link := .Params.links }}
-
-    {{ with (eq $type "github") }}
-    <a class="badge badge-dark" href="{{ $link }}">Github</a>
-    {{ end }}
-
-
-    {{ end }}
-</div>
-{{ end }}
-
 {{ if .Params.tags }}
 <div class="blog-post-tags text-secondary">
     <strong>{{ i18n "tags" }}:</strong>
@@ -21,3 +7,22 @@
 </div>
 {{ end }}
 
+{{ if .Params.badges }}
+<div class="blog-post-tags text-secondary">
+    {{ range $badge := .Params.badges }}
+        {{ if isset $badge "href" }}
+        <a href="{{$badge.href}}">
+        {{end}}
+
+        {{ if isset $badge "src" }}
+        <img src="{{$badge.src}}" alt="{{$badge.title}}" />
+        {{ else if isset $badge "title" }}
+        {{$badge.title}}
+        {{ end }}
+
+        {{ if isset $badge "href" }}
+        </a>
+        {{end}}
+    {{ end }}
+</div>
+{{ end }}

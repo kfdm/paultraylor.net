@@ -1,8 +1,11 @@
 ---
 date: '2016-09-19'
 title: Quickstats Server
-links:
-  github: 'https://github.com/kfdm/django-simplestats'
+badges:
+  - href: 'https://github.com/quickstats/quickstats-django'
+    src: https://img.shields.io/github/stars/quickstats/quickstats-django?style=social
+  - title: license
+    src: 'https://img.shields.io/github/license/quickstats/quickstats-django'
 summary: Personal project for exploring quantified self
 active: true
 aliases:
