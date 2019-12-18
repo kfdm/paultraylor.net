@@ -1,0 +1,23 @@
+{{ if .Params.links }}
+<div class="blog-post-tags text-secondary">
+    <strong>Links:</strong>
+    {{ range $type, $link := .Params.links }}
+
+    {{ with (eq $type "github") }}
+    <a class="badge badge-dark" href="{{ $link }}">Github</a>
+    {{ end }}
+
+
+    {{ end }}
+</div>
+{{ end }}
+
+{{ if .Params.tags }}
+<div class="blog-post-tags text-secondary">
+    <strong>{{ i18n "tags" }}:</strong>
+    {{ range .Params.tags }}
+    <a class="badge badge-primary" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+</div>
+{{ end }}
+

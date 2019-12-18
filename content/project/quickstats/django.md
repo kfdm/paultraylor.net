@@ -1,15 +1,15 @@
 ---
 date: '2016-09-19'
-title: simplestats
-github: kfdm/django-simplestats
+title: Quickstats Server
+links:
+  github: 'https://github.com/kfdm/django-simplestats'
 summary: Personal project for exploring quantified self
 active: true
-url: /projects/simplestats.html
+aliases:
+  - /projects/simplestats.html
 tags:
-  - time-management
   - quantified-self
-  - python
-  - swift
+  - django
 ---
 
 A django app for exploring things around the quantified self movement
