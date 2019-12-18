@@ -14,4 +14,7 @@ badges:
     src: 'https://img.shields.io/badge/line-engineering-green'
 ---
 
+Promgen is a configuration generator for [Prometheus] which I develop as part of my job at [LINE Fukuoka]
 
+[line fukuoka]: https://linefukuoka.co.jp/
+[prometheus]: https://prometheus.io
