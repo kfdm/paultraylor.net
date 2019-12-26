@@ -21,3 +21,4 @@ I prefer to work with [Python] and [Django] for most of my projects, though I ca
 [quantified-self]: /tags/quantified-self
 [saltstack]: /tags/saltstack
 [time management]: /tags/time-management/
+[language-server]: /tags/language-server/
