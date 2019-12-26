@@ -8,11 +8,12 @@ I prefer to work with [Python] and [Django] for most of my projects, though I ca
 
 # Current Interests
 
-- Configuration and automation using [SaltStack](https://github.com/saltstack/salt)
+- Configuration and automation using [SaltStack]
 - Tools for [time management] and [quantified-self]
-- [activitypub] and other services built around federation
+- [activitypub] and other services built around [fediverse]
 
 [activitypub]: /tags/activitypub
+[fediverse]: /tags/fediverse
 [django]: /tags/django
 [fukuoka]: https://en.wikipedia.org/wiki/Fukuoka
 [python]: /tags/python
