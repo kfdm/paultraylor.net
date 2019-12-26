@@ -1,10 +1,11 @@
 ---
-date: '2017-10-12'
+date: "2017-10-12"
 title: Worklog
 github: kfdm/alfred-worklog
 excerpt: Keeping track of today's activities
 active: true
-url: /projects/worklog.html
+aliases:
+  - /projects/worklog.html
 tags:
   - alfred
   - python

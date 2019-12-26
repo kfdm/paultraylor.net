@@ -11,6 +11,7 @@ I prefer to work with [Python] and [Django] for most of my projects, though I ca
 - Configuration and automation using [SaltStack]
 - Tools for [time management] and [quantified-self]
 - [activitypub] and other services built around [fediverse]
+- [language-server] and other development tools
 
 [activitypub]: /tags/activitypub
 [fediverse]: /tags/fediverse
