@@ -30,3 +30,6 @@ help:
 ## Run server for debugging
 server:
 	hugo server
+
+docker:
+	docker run -v $(CURDIR):/src klakegg/hugo:ext-alpine
