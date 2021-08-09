@@ -23,6 +23,15 @@ menu:
       name: Blog
       url: /blog/
       weight: 30
+    - identifier: week
+      name: Week Notes
+      url: /week/
+      weight: 40
     - name: 日本語
       url: https://nihongo.paultraylor.net/
       weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
