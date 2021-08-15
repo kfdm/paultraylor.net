@@ -29,7 +29,7 @@ help:
 
 ## Run server for debugging
 server:
-	hugo server
+	hugo server --buildDrafts
 
 docker:
 	docker run -v $(CURDIR):/src klakegg/hugo:ext-alpine
