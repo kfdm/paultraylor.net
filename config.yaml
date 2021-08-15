@@ -11,6 +11,9 @@ params:
   github: https://github.com/kfdm
   header:
     colorScheme: dark
+  mainSections:
+    - blog
+    - week
 
 # https://gohugo.io/content-management/menus/
 menu:
