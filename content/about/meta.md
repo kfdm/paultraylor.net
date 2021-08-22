@@ -13,6 +13,4 @@ This site is currentul built using [hugo]
 
 <img width="24px" src="/images/section/week.svg" /> by [Freepik](https://www.flaticon.com/free-icon/writing_1001371)
 
-Section icons made by [dDara] from [www.flaticon.com]
-
 [hugo]: https://gohugo.io/

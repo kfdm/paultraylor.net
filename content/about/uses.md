@@ -47,4 +47,5 @@ Things that I use on a regular basis
 
 # Online Services
 
+- [Gyroscope](https://gyrosco.pe/) - Create reports from all your other fitness sources
 - [wanikani](https://www.wanikani.com/users/kfdm) - Great way to slowly build up your kanji and vocabulary
