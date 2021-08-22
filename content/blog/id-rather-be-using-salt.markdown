@@ -8,7 +8,7 @@ tags:
   - saltstack
 ---
 
-Currently I'm using [Ansible](https://www.ansible.com/) at work, but I would MUCH rather be using [Salt](https://docs.saltstack.com). A [discussion](https://groups.google.com/d/topic/salt-users/VqYjdlWsNHU/discussion) on the Salt mailing list reminded me of this again, so I thought I would write down a few notes regarding why I would rather be using Salt (and why I not-so-secretly use Salt for development)
+Currently I'm using [Ansible](https://www.ansible.com/) at work, but I would MUCH rather be using [Salt](https://docs.saltproject.io/). A [discussion](https://groups.google.com/d/topic/salt-users/VqYjdlWsNHU/discussion) on the Salt mailing list reminded me of this again, so I thought I would write down a few notes regarding why I would rather be using Salt (and why I not-so-secretly use Salt for development)
 
 # Why have both roles and playbooks?
 
@@ -23,7 +23,7 @@ Ansibles [precedence](http://docs.ansible.com/ansible/latest/playbooks_variables
 - Pillars - These come from the Salt Master
 - Grains - These come from the Salt Minion
 
-There are some cases using [filter_by](https://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.grains.html#salt.modules.grains.filter_by) that are a little scary, but in general there is no strange precedence rules with Salt.
+There are some cases using [filter_by](https://docs.saltproject.io/en/latest/ref/modules/all/salt.modules.grains.html#salt.modules.grains.filter_by) that are a little scary, but in general there is no strange precedence rules with Salt.
 
 # Is Ansible really easier to get started with?
 

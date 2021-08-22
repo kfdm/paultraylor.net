@@ -30,7 +30,7 @@ Starting from an original version created out of fabric and shell scripts, and t
 
 #### Tools Used
 
-- [SaltStack](http://www.saltstack.com/)
+- [SaltStack](https://docs.saltproject.io/)
 - [Python]
 - Bash
 - Xen
@@ -57,7 +57,7 @@ Took over and expanded TeamCity testing environment configuring it to handle a m
 
 #### Tools Used
 
-- [SaltStack](http://www.saltstack.com/)
+- [SaltStack](https://docs.saltproject.io/)
 - [Python]
 - git
 - Bash
