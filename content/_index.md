@@ -6,19 +6,6 @@ I'm a software developer who currently lives in [Fukuoka], Japan. I enjoy focusi
 
 I prefer to work with [Python] and [Django] for most of my projects, though I can use shell script or ruby or other languages as needed for the project at hand.
 
-# Current Interests
-
-- Configuration and automation using [SaltStack]
-- Tools for [time management] and [quantified-self]
-- [activitypub] and other services built around [fediverse]
-- [language-server] and other development tools
-
-[activitypub]: /tags/activitypub
-[fediverse]: /tags/fediverse
 [django]: /tags/django
 [fukuoka]: https://en.wikipedia.org/wiki/Fukuoka
 [python]: /tags/python
-[quantified-self]: /tags/quantified-self
-[saltstack]: /tags/saltstack
-[time management]: /tags/time-management/
-[language-server]: /tags/language-server/
