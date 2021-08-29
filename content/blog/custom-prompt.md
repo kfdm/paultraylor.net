@@ -8,7 +8,7 @@ url: /blog/custom-prompt.html
 
 # SSH Colors
 
-I like to use colors in the shell to help me identify which machine I'm on. I also like to keep my [dotfiles](https://github.com/kfdm/dotfiles) under git so it helps to have a simple way to programatically set which color I should be using on which machine.
+I like to use colors in the shell to help me identify which machine I'm on. I also like to keep my [dotfiles](https://github.com/kfdm/dotfiles) under git so it helps to have a simple way to programmatically set which color I should be using on which machine.
 
 ```bash
 if [ "$SSH_CONNECTION" == "" ]; then
@@ -20,7 +20,7 @@ else
 fi
 ```
 
-By checking the existance of the `$SSH_CONNECTION` variable it is easy to set one color for my local machine and a different color for remote machines.
+By checking the existence of the `$SSH_CONNECTION` variable it is easy to set one color for my local machine and a different color for remote machines.
 
 # Timestamp
 
