@@ -33,3 +33,12 @@ server:
 
 docker:
 	docker run -v $(CURDIR):/src klakegg/hugo:ext-alpine
+
+
+PYTHON_BIN := .venv/bin/python
+$(PYTHON_BIN):
+	python3 -m venv .venv
+
+.PHONY: week
+week: $(PYTHON_BIN)
+	$(PYTHON_BIN) scripts/weeknote.py
