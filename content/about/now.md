@@ -9,7 +9,9 @@ url: /now
 - Working at [LINE Fukuoka]
 - Learning [Swift] as a hobby to make some personal iOS apps
 - Prototyping tools for [time management] and [quantified-self]
+- Playing [Final Fantasy 14]
 
+[final fantasy 14]: https://jp.finalfantasyxiv.com/lodestone/character/39494058/
 [fukuoka]: https://en.wikipedia.org/wiki/Fukuoka
 [language-server]: /tags/language-server/
 [line fukuoka]: https://linefukuoka.co.jp
