@@ -1,6 +1,6 @@
 [submodule "themes/bootstrap"]
 	path = themes/bootstrap
-	url = https://github.com/Xzya/hugo-bootstrap.git
+	url = https://github.com/kfdm/hugo-bootstrap.git
 [submodule "themes/worklog"]
 	path = themes/worklog
 	url = https://github.com/kfdm/hugo-worklog
