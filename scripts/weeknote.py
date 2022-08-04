@@ -1,7 +1,6 @@
 import datetime
-import subprocess
 import pathlib
-
+import subprocess
 
 today = datetime.datetime.today()
 path = (
@@ -15,6 +14,7 @@ path = (
 if path.exists():
     print("exists")
 else:
+    path.parent.mkdir(parents=True)
     with path.open("w+") as fp:
         fp.write("---\n")
         fp.write("title: ")

@@ -40,5 +40,6 @@ $(PYTHON_BIN):
 	python3 -m venv .venv
 
 .PHONY: week
+## Create new weeknote
 week: $(PYTHON_BIN)
 	$(PYTHON_BIN) scripts/weeknote.py
