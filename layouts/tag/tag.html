@@ -27,7 +27,14 @@
             {{- end }}
             <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
         </dt>
-        <dd class="col-sm-9">{{ .Summary }}</dd>
+
+        <dd class="col-sm-9">
+            {{ .Summary }}
+            {{ if .Params.homepage }}
+            (<a rel="nofollow" href="{{ .Params.homepage }}">Homepage</a>)
+            {{ end }}
+        </dd>
+
         {{ end }}
     </dl>
 </section>
