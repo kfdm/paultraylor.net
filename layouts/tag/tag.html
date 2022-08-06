@@ -13,7 +13,7 @@
 {{ end }}
 
 {{ $projects := where $.Pages "Section" "project" }}
-{{ $projects := where $projects "Params.active" true }}
+{{ $projects := where $projects "Params.retired" nil }}
 {{ if $projects }}
 <section>
     <h2>Featured Projects</h2>

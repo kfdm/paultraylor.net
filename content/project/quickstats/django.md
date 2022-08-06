@@ -9,7 +9,7 @@ badges:
   - src: 'https://img.shields.io/github/issues/quickstats/quickstats-django'
     href: 'https://github.com/quickstats/quickstats-django/issues'
 summary: Personal project for exploring quantified self
-active: true
+retired: true
 aliases:
   - /projects/simplestats.html
 tags:
