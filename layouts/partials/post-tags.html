@@ -3,7 +3,7 @@
     <dt class="col-sm-1">{{ i18n "tags" }}</dt>
     <dd class="col-sm-11">
         {{ range .Params.tags }}
-        <a class="badge badge-primary" href="{{ '/tags/' | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        <a class="badge badge-primary" href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ . }}</a>
         {{ end }}
     </dd>
     {{ end }}
