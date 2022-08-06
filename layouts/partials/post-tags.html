@@ -1,28 +1,31 @@
-{{ if .Params.tags }}
-<div class="blog-post-tags text-secondary">
-    <strong>{{ i18n "tags" }}:</strong>
-    {{ range .Params.tags }}
-    <a class="badge badge-primary" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+<dl class="row text-secondary">
+    {{ if .Params.tags }}
+    <dt class="col-sm-1">{{ i18n "tags" }}</dt>
+    <dd class="col-sm-11">
+        {{ range .Params.tags }}
+        <a class="badge badge-primary" href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+    </dd>
     {{ end }}
-</div>
-{{ end }}
 
-{{ if .Params.badges }}
-<div class="blog-post-tags text-secondary">
-    {{ range $badge := .Params.badges }}
+    {{ if .Params.badges }}
+    <dt class="col-sm-1">Badges</dt>
+    <dd class="col-sm-11">
+        {{ range $badge := .Params.badges }}
         {{ if isset $badge "href" }}
         <a href="{{$badge.href}}">
-        {{end}}
+            {{end}}
 
-        {{ if isset $badge "src" }}
-        <img src="{{$badge.src}}" alt="{{$badge.title}}" />
-        {{ else if isset $badge "title" }}
-        {{$badge.title}}
-        {{ end }}
+            {{ if isset $badge "src" }}
+            <img src="{{$badge.src}}" alt="{{$badge.title}}" />
+            {{ else if isset $badge "title" }}
+            {{$badge.title}}
+            {{ end }}
 
-        {{ if isset $badge "href" }}
+            {{ if isset $badge "href" }}
         </a>
-        {{end}}
+        {{ end }}
+        {{ end }}
+    </dd>
     {{ end }}
-</div>
-{{ end }}
+</dl>
