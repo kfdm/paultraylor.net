@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<header>
+    <h1 class="blog-post-title">
+        <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+    </h1>
+    <hr>
+</header>
+{{ if .Content }}
+<section class="blog-post">
+    {{ .Content }}
+</section>
+{{ end }}
+
+{{ $projects := where $.Pages "Section" "project" }}
+{{ $projects := where $projects "Params.active" true }}
+{{ if $projects }}
+<section>
+    <h2>Featured Projects</h2>
+    <dl class="row">
+        {{ range $projects.ByTitle }}
+        {{ $icon := printf "/images/section/%s.svg" .Section }}
+        {{ $scan := printf "static%s" $icon }}
+        <dt class="col-sm-3">
+            {{ if (fileExists $scan) -}}
+            <img src="{{$icon}}" height="16" width="16" alt="{{.Section}}" />
+            {{- end }}
+            <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        </dt>
+        <dd class="col-sm-9">{{ .Summary }}</dd>
+        {{ end }}
+    </dl>
+</section>
+{{ end }}
+
+{{ $posts := where $.Pages "Section" "blog" }}
+<section>
+    {{ if $projects }}
+    <h2>Posts</h2>
+    {{ end }}
+    {{ if $posts }}
+    {{ range $posts }}
+    {{ .Render "summary" }}
+    {{ end }}
+</section>
+{{ end }}
+
+{{ end }}
