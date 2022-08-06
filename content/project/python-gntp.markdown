@@ -1,6 +1,7 @@
 ---
 title: Python GNTP Library
-github: kfdm/gntp
+external:
+  github: http://github.com/kfdm/gntp
 excerpt: Python library for Growl Network Protocol
 active: false
 date: '2016-09-19'

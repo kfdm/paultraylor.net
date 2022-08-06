@@ -1,7 +1,8 @@
 ---
 date: '2017-08-28'
 title: Timebox Server
-github: kfdm/ios-pomodoro
+external:
+  github: https://github.com/kfdm/ios-pomodoro
 aliases:
   -  /projects/timebox.html
 active: true

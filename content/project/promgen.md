@@ -2,6 +2,8 @@
 title: Promgen
 active: true
 date: 2019-12-18T06:34:02.000Z
+external:
+  github: line/progen
 tags:
   - django
   - prometheus

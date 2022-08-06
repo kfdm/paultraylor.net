@@ -30,8 +30,12 @@
 
         <dd class="col-sm-9">
             {{ .Summary }}
-            {{ if .Params.homepage }}
-            (<a rel="nofollow" href="{{ .Params.homepage }}">Homepage</a>)
+            {{ if .Params.external }}
+            (
+            {{range $index, $link := .Params.external }}
+            <a rel="nofollow" href="{{ $link }}">{{ title $index }}</a>
+            {{ end }}
+            )
             {{ end }}
         </dd>
 

@@ -1,7 +1,8 @@
 ---
 date: "2017-10-12"
 title: Worklog
-github: https://github.com/kfdm/worklog
+external:
+  github: https://github.com/kfdm/worklog
 active: true
 aliases:
   - /projects/worklog.html
