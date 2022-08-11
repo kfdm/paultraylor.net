@@ -1,9 +1,7 @@
 {{ define "main" }}
 
-{{ range where .Paginator.Pages "Params.active" true }}
+{{ range where .Pages "Params.active" true }}
 {{ .Render "summary" }}
 {{ end }}
-
-{{ partial "paginator" . }}
 
 {{ end }}

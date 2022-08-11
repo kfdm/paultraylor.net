@@ -19,12 +19,8 @@
     <h2>Featured Projects</h2>
     <dl class="row">
         {{ range $projects.ByTitle }}
-        {{ $icon := printf "/images/section/%s.svg" .Section }}
-        {{ $scan := printf "static%s" $icon }}
         <dt class="col-sm-3">
-            {{ if (fileExists $scan) -}}
-            <img src="{{$icon}}" height="16" width="16" alt="{{.Section}}" />
-            {{- end }}
+            {{ partial "section_icon.html" . }}
             <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
         </dt>
 

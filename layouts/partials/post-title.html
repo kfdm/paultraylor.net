@@ -1,9 +1,4 @@
-{{ $icon := printf "/images/section/%s.svg" .Section }}
-{{ $scan := printf "static%s" $icon }}
-
 <h2 class="blog-post-title">
-    {{ if (fileExists $scan) -}}
-    <img src="{{$icon}}" height="24" width="24" alt="{{.Section}}" />
-    {{- end }}
+    {{ partial "section_icon.html" . }}
     <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
 </h2>
