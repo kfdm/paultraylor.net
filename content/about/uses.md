@@ -19,6 +19,7 @@ Things that I use on a regular basis
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
   - [Momentum](https://momentumdash.com/) - Visually pleasing start page
   - [yomichan](https://foosoft.net/projects/yomichan/) - Great extension to allow looking up words while reading online
+- [Quitter](https://marco.org/2016/05/02/quitter) - Useful to help remove distractions
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 # Mobile Software
@@ -42,7 +43,9 @@ Things that I use on a regular basis
 
 # Development Stack
 
+- [Django](https://www.djangoproject.com/)
 - [Linode](https://www.linode.com/?r=ee919cf9626f9a202ddb894314a7f7d0cdad084b)
+- [Prometheus](https://prometheus.io/)
 - [Salt](https://docs.saltproject.io/)
 
 # Online Services
