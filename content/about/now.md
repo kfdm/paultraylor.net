@@ -9,6 +9,7 @@ url: /now
 - Working at [LINE Fukuoka]
 - Learning [Swift] as a hobby to make some personal iOS apps
 - Prototyping tools for [time management] and [quantified-self]
+- Adopted 2 cats which keep me entertained and busy.
 - Playing [Final Fantasy 14]
   - Working on [monk]
   - Filling in some missing [New Game+] entries
