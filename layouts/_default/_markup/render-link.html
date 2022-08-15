@@ -1,0 +1,10 @@
+{{/* https://johnmu.com/nofollow-hugo/ */}}
+{{- $linkurl := .Destination }}
+{{- $relval := ""}}
+{{- if strings.HasPrefix $linkurl "http" }}
+    {{- $relval = printf "%s %s" $relval "external" }}
+{{- end -}}
+<a href="{{ $linkurl | safeURL }}"
+    {{- with .Title}} title="{{ trim . " " }}"{{ end -}}
+    {{- with $relval}} rel="{{ trim . " " }}"{{ end -}}
+>{{ .Text | safeHTML }}</a>
