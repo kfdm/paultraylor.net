@@ -7,6 +7,7 @@ url: /now
 
 - Living in [Fukuoka] Japan
 - Working at [LINE Fukuoka]
+- Reading [Dr.STONE](https://manga.line.me/book/product_list?product_id=00009im3)
 - Learning [Swift] as a hobby to make some personal iOS apps
 - Prototyping tools for [time management] and [quantified-self]
 - Adopted 2 cats which keep me entertained and busy.
