@@ -1,6 +1,6 @@
 <dl class="row text-secondary">
     {{ if .Params.tags }}
-    <dt class="col-sm-1">{{ i18n "tags" }}</dt>
+    <dt class="col-sm-1">{{ i18n "tags" }}: </dt>
     <dd class="col-sm-11">
         {{ range .Params.tags }}
         <a class="badge badge-primary" href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ . }}</a>
@@ -8,8 +8,28 @@
     </dd>
     {{ end }}
 
+    {{ if .Params.categories }}
+    <dt class="col-sm-1">{{ i18n "category" }}: </dt>
+    <dd class="col-sm-11">
+        {{ range .Params.categories }}
+        <a class="badge badge-primary" href='{{ "/categories/" | relLangURL }}{{ . | urlize }}'>{{ . }}</a>
+        {{ end }}
+    </dd>
+    {{ end }}
+
+    {{ if .Params.status }}
+    <dt class="col-sm-1">{{ i18n "status" }}: </dt>
+    <dd class="col-sm-11">
+        {{ if eq .Params.status "retired" }}
+        <span class="badge badge-danger">Retired</span>
+        {{else}}
+        <span class="badge badge-secondary">{{.Params.status}}</span>
+        {{end}}
+    </dd>
+    {{end}}
+
     {{ if .Params.badges }}
-    <dt class="col-sm-1">Badges</dt>
+    <dt class="col-sm-1">{{ i18n "badges" }}:</dt>
     <dd class="col-sm-11">
         {{ range $badge := .Params.badges }}
         {{ if isset $badge "href" }}

@@ -1,2 +1,4 @@
 - id: status
   translation: "Status"
+- id: badges
+  translation: Badges
