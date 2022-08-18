@@ -2,7 +2,7 @@
 title: django-mqtt
 date: 2020-03-29
 summary: Integrate MQTT with a Django application
-active: true
+status: alpha
 external:
   github: https://github.com/kfdm/django-mqtt
 tags:

@@ -3,7 +3,7 @@ date: "2017-10-12"
 title: Worklog
 external:
   github: https://github.com/kfdm/worklog
-active: true
+status: prototype
 aliases:
   - /projects/worklog.html
 tags:

@@ -2,9 +2,9 @@
 title: django-zakka
 date: 2022-01-21
 summary: A collection of assorted mini apps and helpers to be reused in various Django projects
+status: alpha
 external:
   github: https://github.com/kfdm/django-zakka
-active: true
 tags:
   - django
 badges:

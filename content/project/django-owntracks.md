@@ -2,7 +2,6 @@
 title: django-owntracks
 date: 2020-03-29
 summary: Integrate Owntracks with a Django application
-active: true
 external:
   github: https://github.com/kfdm/django-owntracks
 tags:

@@ -3,7 +3,7 @@ title: Python GNTP Library
 external:
   github: http://github.com/kfdm/gntp
 excerpt: Python library for Growl Network Protocol
-active: false
+status: retired
 date: '2016-09-19'
 tags:
   - python

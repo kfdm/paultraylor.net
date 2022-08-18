@@ -1,7 +1,7 @@
 ---
 title: salt-bot
 date: 2019-12-18T07:02:36.000Z
-retired: true
+status: retired
 tags:
   - django
   - slack

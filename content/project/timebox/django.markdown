@@ -5,7 +5,7 @@ external:
   github: https://github.com/kfdm/ios-pomodoro
 aliases:
   -  /projects/timebox.html
-active: true
+status: alpha
 tags:
   - time-management
   - django
