@@ -38,6 +38,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    noClasses: false
 
 taxonomies:
   category: categories

@@ -28,8 +28,12 @@ help:
 
 
 ## Run server for debugging
-server:
-	hugo server --buildDrafts
+server: static/css/syntax.css
+	hugo server --buildDrafts --buildFuture
+
+# https://xyproto.github.io/splash/docs/all.html
+static/css/syntax.css:
+	hugo gen chromastyles --style=friendly > static/css/syntax.css
 
 docker:
 	docker run -v $(CURDIR):/src klakegg/hugo:ext-alpine
