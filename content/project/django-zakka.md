@@ -5,6 +5,7 @@ summary: A collection of assorted mini apps and helpers to be reused in various 
 status: alpha
 external:
   github: https://github.com/kfdm/django-zakka
+  pypi: https://pypi.org/project/django-zakka/
 tags:
   - django
 badges:

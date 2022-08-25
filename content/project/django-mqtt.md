@@ -5,6 +5,7 @@ summary: Integrate MQTT with a Django application
 status: alpha
 external:
   github: https://github.com/kfdm/django-mqtt
+  pypi: https://pypi.org/project/django-mqtt/
 tags:
   - django
   - mqtt
