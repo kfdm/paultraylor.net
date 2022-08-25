@@ -14,7 +14,7 @@ path = (
 if path.exists():
     print("exists")
 else:
-    path.parent.mkdir(parents=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w+") as fp:
         fp.write("---\n")
         fp.write("title: ")
