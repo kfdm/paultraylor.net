@@ -7,8 +7,12 @@ theme:
 rssLimit: 10
 
 params:
-  twitter: "https://twitter.com/kfdm"
-  github: https://github.com/kfdm
+  social:
+    github: https://github.com/kfdm
+    twitter: "https://twitter.com/kfdm"
+    instagram: https://www.instagram.com/kungfudiscomonkey/
+    mastodon: https://mastodon.social/@kfdm
+    linkedin: https://www.linkedin.com/in/PaulTraylor
   header:
     colorScheme: dark
   mainSections:
