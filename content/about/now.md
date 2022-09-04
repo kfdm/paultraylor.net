@@ -1,6 +1,8 @@
 ---
 title: Now
 url: /now
+menu: footer
+weight: 1
 ---
 
 # Currently

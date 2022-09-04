@@ -1,6 +1,8 @@
 ---
 title: "Uses"
 url: /uses
+menus: footer
+weight: 2
 ---
 
 Things that I use on a regular basis

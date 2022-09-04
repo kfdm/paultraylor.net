@@ -1,6 +1,8 @@
 ---
 title: "Contact"
 url: /contact
+menus: footer
+weight: 4
 ---
 
 <dl>

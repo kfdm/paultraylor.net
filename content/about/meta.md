@@ -1,6 +1,9 @@
 ---
-title: About this site
+title: Meta
+summary: Meta information about this site
 url: /meta
+menus: footer
+weight: 3
 ---
 
 This site is currentul built using [hugo]
@@ -28,5 +31,7 @@ This site is currentul built using [hugo]
 <img width="24px" src="/images/logo/mastodon.svg" /> by <https://www.svgrepo.com/svg/306380/mastodon>
 
 <img width="24px" src="/images/logo/twitter.svg" /> by <https://www.svgrepo.com/svg/201339/twitter>
+
+<img width="24px" src="/images/logo/wakatime.svg" /> by <https://www.svgrepo.com/svg/354534/wakatime>
 
 [hugo]: https://gohugo.io/
