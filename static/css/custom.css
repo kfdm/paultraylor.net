@@ -32,3 +32,7 @@ a[rel="nofollow"],
 a[rel="external"] {
   text-decoration: underline;
 }
+
+time[title] {
+  text-decoration: underline dotted;
+}
