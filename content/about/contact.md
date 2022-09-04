@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 url: /contact
-menus: footer
+menu: footer
 weight: 4
 ---
 

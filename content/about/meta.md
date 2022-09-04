@@ -2,7 +2,7 @@
 title: Meta
 summary: Meta information about this site
 url: /meta
-menus: footer
+menu: footer
 weight: 3
 ---
 

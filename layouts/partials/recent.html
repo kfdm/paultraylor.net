@@ -1,0 +1,19 @@
+<!-- Recent Start -->
+{{- $num_recent_posts := default 5 .Site.Params.sidebar.num_recent_posts -}}
+{{- $posts := .Site.RegularPages -}}
+{{- $posts := where $posts "Section" "in" .Site.Params.mainSections -}}
+{{- $posts := where $posts "Section" "!=" "about" -}}
+{{- $posts = $posts | first $num_recent_posts -}}
+{{ if gt (len $posts) 0 }}
+<section>
+    <h4>{{ i18n "recentPosts" }}</h4>
+    <ol class="list-unstyled">
+        {{ range $posts }}
+        <li>
+            <a href="{{.RelPermalink}}">{{.Title | markdownify }}</a>
+        </li>
+        {{ end }}
+    </ol>
+</section>
+{{ end }}
+<!-- Recent End -->
