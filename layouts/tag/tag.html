@@ -19,12 +19,12 @@
     <h2>Featured Projects</h2>
     <dl class="row">
         {{ range $projects.ByTitle }}
-        <dt class="col-sm-3">
+        <dt class="col-sm-4">
             {{ partial "section_icon.html" . }}
             <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
         </dt>
 
-        <dd class="col-sm-9">
+        <dd class="col-sm-8">
             {{ .Summary }}
             {{ if .Params.external }}
             (

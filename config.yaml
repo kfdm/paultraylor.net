@@ -8,11 +8,12 @@ rssLimit: 10
 
 params:
   social:
-    github: https://github.com/kfdm
-    twitter: "https://twitter.com/kfdm"
-    instagram: https://www.instagram.com/kungfudiscomonkey/
-    mastodon: https://mastodon.social/@kfdm
-    linkedin: https://www.linkedin.com/in/PaulTraylor
+    GitHub: https://github.com/kfdm
+    Twitter: "https://twitter.com/kfdm"
+    Instagram: https://www.instagram.com/kungfudiscomonkey/
+    Mastodon: https://mastodon.social/@kfdm
+    LinkedIn: https://www.linkedin.com/in/PaulTraylor
+    Wakatime: https://wakatime.com/@kfdm
   header:
     colorScheme: dark
   mainSections:
