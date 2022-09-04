@@ -1,7 +1,7 @@
 ---
 title: Past Projects
 url: /past.html
-menus: main
+menu: main
 weight: 40
 ---
 

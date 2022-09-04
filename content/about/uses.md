@@ -1,7 +1,7 @@
 ---
 title: "Uses"
 url: /uses
-menus: footer
+menu: footer
 weight: 2
 ---
 
