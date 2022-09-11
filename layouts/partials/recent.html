@@ -1,5 +1,5 @@
 <!-- Recent Start -->
-{{- $num_recent_posts := default 5 .Site.Params.sidebar.num_recent_posts -}}
+{{- $num_recent_posts := default 10 .Site.Params.sidebar.num_recent_posts -}}
 {{- $posts := .Site.RegularPages -}}
 {{- $posts := where $posts "Section" "in" .Site.Params.mainSections -}}
 {{- $posts := where $posts "Section" "!=" "about" -}}
@@ -10,6 +10,7 @@
     <ol class="list-unstyled">
         {{ range $posts }}
         <li>
+            {{ partial "section_icon_16.html" . }}
             <a href="{{.RelPermalink}}">{{.Title | markdownify }}</a>
         </li>
         {{ end }}
