@@ -1,0 +1,17 @@
+---
+title: 2022 Week 37
+date: 2022-09-18
+slug: 37
+---
+
+This weekend is a three-day holiday but there's a typhoon crossing over today and tomorrow so I'm mostly staying in my apartment. The past week felt like it was full of meetings. One meeting did not go as well as I hoped but two others went much better than I expected.
+
+On Wednesday, my iPad suddenly refusing to charge, which resulted a quick trip to the Apple store to get it checked out. After leaving it off for a while, it suddenly turned back on and started charging again which was a surprise but I had already made an appointment so I went ahead and had it checked out. For better or worse the diagnostics check could find nothing wrong with it, and sending it off to be repaired would be expensive and I would be without my iPad for around 2 weeks so for now I'll just wait to see what happens.
+
+Thursday was full of meetings but some parts I had expected to arrive over the weekend, arrived several days earlier, so I was able to do a quick [room sensor prototype](/blog/prototyping-a-sensor).
+
+Friday had another meeting and an interview which made for a very long day but both went better than expected.
+
+For the weekend, it has been catching up on assorted projects and ideas that always tend to be left in a half sketch half prototype state. A lot of yak shaving to get some parts of my dev environment tidied up, but I have made some progres on a vscode worklog extension prototype.
+
+With the typhoon approaching, I expect the rest of the three day weekend will be a mix of reading and continuing assorted prototypes. I did manage to finish [Dr.STONE](https://manga.line.me/book/product_list?product_id=00009im3) earlier today, so considering what I want to read next.
