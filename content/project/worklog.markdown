@@ -1,6 +1,6 @@
 ---
 date: "2017-10-12"
-title: Worklog
+title: alfred-worklog
 external:
   github: https://github.com/kfdm/worklog
 status: prototype

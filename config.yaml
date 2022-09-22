@@ -19,6 +19,7 @@ params:
   mainSections:
     - blog
     - week
+    - project
 
 # https://gohugo.io/content-management/menus/
 menu:
