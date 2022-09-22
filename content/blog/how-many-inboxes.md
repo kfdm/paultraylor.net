@@ -3,8 +3,7 @@ title: How Many Inboxes?
 date: "2022-09-22"
 tags:
   - time-management
-  - swift
-  - django
+  - pim
 ---
 
 How many inboxes do you have?
