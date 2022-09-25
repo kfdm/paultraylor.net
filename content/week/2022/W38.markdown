@@ -1,0 +1,29 @@
+---
+title: 2022 Week 38
+date: "2022-09-25"
+slug: 38
+tags:
+  - saltstack
+---
+
+Monday was [敬老の日] in Japan which made last weekend a three-day holiday, but a typhoon meant I mostly stayed inside. I ended up working on some DNS tools so that I could apply some git ops to some of my local infrastructure. Most of it is rather unique to my own setup so I'm not sure if there's much worth publishing there but I may write about it sometime.
+
+Friday was [秋分の日] in Japan making this weekend a three-day weekend as well. I didn't get as much accomplished as last weekend but was still nice to have a bit of extra time.
+
+The biggest task was updating a lot of DNS entries for my test servers and migrating my database server. I typically use [MySQL] at work (because that's what the database team offers) but A while back I started using [PostgreSQL] for my personal projects to force myself to learn some alternative databases. For the types of tasks I'm doing using one or the other does not matter much since I am not doing anything too specific. I had been testing [timescale] at one point in the past, so that's what I had on my old database server, but wanting to test out [plausible] I needed to switch back to vanilla Postgres because of some extension mismatch.
+
+I probably need to work on a better cheat-sheet for Postgres (or adopt an existing one) because I often have a lot of trouble remembering the specific commands any time I need to do database operations. Trying to figure out an equivalent of MySQL's `my.cnf` file has also been confusing. There is [pgpass] which covers a few cases but not all of them. I'm running the actual database in docker, but if I want to use a `pg_dump` or `psql` binary installed on the server, I have to specify the host name for every connection. I almost have things working again, but it does tempt me to just go back to MySQL to have a slightly easier time.
+
+While doing updates to my [salt] master, I've been trying out the [Lapce] editor, since it has a built in ssh remote connection which seems to be much faster than the same thing in [VSCode]. Since Lapce is also using [language server protocol] I hope that it will be able to have good language support, and with it being written in Rust, I hope for it to be lighter weight for those remote dev times.
+
+[秋分の日]: https://en.wikipedia.org/wiki/Autumnal_Equinox_Day
+[postgresql]: https://en.wikipedia.org/wiki/PostgreSQL
+[mysql]: https://en.wikipedia.org/wiki/MySQL
+[timescale]: https://www.timescale.com/
+[plausible]: https://plausible.io/
+[lapce]: https://github.com/lapce/lapce
+[vscode]: /tags/vscode
+[salt]: /tags/saltstack/
+[language server protocol]: https://langserver.org/
+[pgpass]: https://www.postgresql.org/docs/current/libpq-pgpass.html
+[敬老の日]: https://en.wikipedia.org/wiki/Respect_for_the_Aged_Day
