@@ -1,6 +1,6 @@
 ---
 title: 2022 Week 37
-date: 2022-09-18
+date: "2022-09-18"
 slug: 37
 ---
 
@@ -12,6 +12,6 @@ Thursday was full of meetings but some parts I had expected to arrive over the w
 
 Friday had another meeting and an interview which made for a very long day but both went better than expected.
 
-For the weekend, it has been catching up on assorted projects and ideas that always tend to be left in a half sketch half prototype state. A lot of yak shaving to get some parts of my dev environment tidied up, but I have made some progres on a vscode worklog extension prototype.
+For the weekend, it has been catching up on assorted projects and ideas that always tend to be left in a half sketch half prototype state. A lot of yak shaving to get some parts of my dev environment tidied up, but I have made some progress on a vscode worklog extension prototype.
 
 With the typhoon approaching, I expect the rest of the three day weekend will be a mix of reading and continuing assorted prototypes. I did manage to finish [Dr.STONE](https://manga.line.me/book/product_list?product_id=00009im3) earlier today, so considering what I want to read next.

@@ -40,7 +40,7 @@
 </section>
 {{ end }}
 
-{{ $posts := where $.Pages "Section" "blog" }}
+{{ $posts := where $.Pages "Section" "!=" "project" }}
 <section>
     {{ if $posts }}
     <h2>Posts</h2>

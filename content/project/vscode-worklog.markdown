@@ -7,6 +7,7 @@ external:
   vscode: https://marketplace.visualstudio.com/items?itemName=kungfudiscomonkey.simple-worklog
 tags:
   - worklog
+  - vscode
 ---
 
 A VSCode [extension] for managing a worklog in [hugo].
