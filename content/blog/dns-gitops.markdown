@@ -1,6 +1,6 @@
 ---
-title: "GitOps for My DNS"
-draft: True
+title: GitOps for My DNS
+date: "2022-09-29"
 tags:
   - gitops
 ---
@@ -16,14 +16,14 @@ class Namecheap:
         self.api_base = "https://api.namecheap.com/xml.response"
 
     def params(self, params):
-		# Add our required parameters in a single place
+        # Add our required parameters in a single place
         params.setdefault("ApiUser", self.username)
         params.setdefault("ApiKey", self.apikey)
         params.setdefault("UserName", self.username)
         return params
 
     def post(self, params, **kwargs) -> requests.Response:
-		# Build a post requeest
+        # Build a post requeest
         kwargs.setdefault("url", self.api_base)
         result = requests.post(params=self.params(params), **kwargs)
         result.raise_for_status()
@@ -52,8 +52,8 @@ class Request:
         return self.client.setHosts(self.domain, self.tld, self.params)
 
     def __record(self, **params):
-		# The Namecheap API prefixes a bunch of their keys with a number
-		# so we keep track of that here
+        # The Namecheap API prefixes a bunch of their keys with a number
+        # so we keep track of that here
         self.count += 1
         params.setdefault("TTL", 1800)
         for key in params:
@@ -87,7 +87,7 @@ request.a("@", Address.CHIHARU)
 request.a("www", Address.CHIHARU)
 
 # My old japanese notes blog.
-request.a("nihongo", "kfdm.github.io")
+request.cname("nihongo", "kfdm.github.io")
 request.txt('@', 'some other information)
 ```
 
@@ -96,8 +96,8 @@ I also wrote a quick wrapper so I can quickly take a backup.
 ```make
 .PHONY: backup-dns
 backup-dns: $(APP_BIN)
-	$(APP_BIN) backup-dns kungfudiscomonkey.net
-	$(APP_BIN) backup-dns paultraylor.net
+    $(APP_BIN) backup-dns kungfudiscomonkey.net
+    $(APP_BIN) backup-dns paultraylor.net
 ```
 
 Having these scripts made things easier while doing my various domain migrations over the past weekend.
