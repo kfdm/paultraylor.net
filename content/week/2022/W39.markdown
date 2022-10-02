@@ -1,0 +1,22 @@
+---
+title: 2022 Week 39
+date: 2022-10-02
+slug: 39
+---
+
+After having two three-day weekends, this week felt kinda long, though it was overall a fairly average week.
+
+<!--more-->
+
+My team provides [Prometheus] as a service to other teams. We can easily look at some of our stats and see how much it is being used, but it's hard to tell user satisfaction from server metrics. I had been wanting to send out a survey for quite a while, and this past week I finally sent one out. Many of the responses were very kind on the satisfaction score and many of the detailed comments surprised me with their kindness. Most of the "needs improvements" comments were mostly respectful and covered things I had already presumed myself so there were no major surprises. Since we just finished the first half of they year (financial calendar) this helps a little bit with prioritizing the next half.
+
+Since it is the end of the month, we had our department "Cafe Friday" event, where several of us gather online just to hang out a bit during work hours. This week we had two recently joined employees join Cafe Friday, so it was fun doing self-introductions and just hanging out a bit.
+
+Saturday was a good, full day. In the morning my gaming group started the new Saga for [Tribes of Midgard] and made good progress (after refreshing ourself on how to play). In the afternoon, I had some friends over to play with the cats. Whenever I have friends visit, I try to bake something, so this time I baked my favorite Banana Nut Bread recipe. I also had a cat tree delivered so I spent the evening setting that up for the cats. I hope giving them more places to climb and sharpen their claws, will save my curtains a bit.
+
+On Sunday, my energy levels were much lower, so I mostly spent the day playing [FFXIV] working on leveling up various classes. I got my ranged DPS classes all up to 70, but with my inventory a mess, I decided to try a different strategy. Going to try to level up everything more or less in sync so then I can salvage all lower level armor at once. With all my classes up to at least level 1, I can now do leveling roulette to help. Next goal will be to get everything to level 30 so I can unlock their job stone and use [frontline] as well.
+
+[tribes of midgard]: https://www.tribesofmidgard.com/
+[ffxiv]: https://na.finalfantasyxiv.com/lodestone/character/39494058/
+[prometheus]: /tags/prometheus/
+[frontline]: https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/frontline/
