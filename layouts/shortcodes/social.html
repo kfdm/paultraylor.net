@@ -1,0 +1,4 @@
+{{ range $key, $value := .Site.Params.social }}
+<dt><img src="/images/logo/{{ lower $key }}.svg" /> {{ $key }}</dt>
+<dd><a href="{{ $value }}">{{ $value }}</a></dd>
+{{ end }}
