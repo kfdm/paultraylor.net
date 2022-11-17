@@ -1,0 +1,5 @@
+{{ $icon := printf "/images/section/%s.svg" .Section }}
+{{ $scan := printf "static%s" $icon }}
+{{ if (fileExists $scan) -}}
+<img src="{{$icon}}" height='24' width='24' alt="{{.Section}}" />
+{{- end }}

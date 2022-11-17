@@ -1,0 +1,8 @@
+{{ if .Params.tags }}
+
+<strong>Tags:</strong>
+{{ range .Params.tags }}
+<a class="badge bg-primary" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+{{ end }}
+
+{{ end }}
