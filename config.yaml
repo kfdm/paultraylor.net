@@ -1,9 +1,6 @@
 baseURL: "https://paultraylor.net/"
 languageCode: "en-us"
 title: "PaulTraylor.net"
-theme:
-  - worklog
-  - bootstrap
 rssLimit: 10
 
 params:

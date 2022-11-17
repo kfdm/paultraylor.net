@@ -1,7 +1,0 @@
-{{ define "main" }}
-
-{{ range where .Pages "Params.status" "!=" "retired" }}
-{{ .Render "summary" }}
-{{ end }}
-
-{{ end }}
