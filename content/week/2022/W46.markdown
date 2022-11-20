@@ -1,0 +1,19 @@
+---
+title: 2022 Week 46
+date: 2022-11-20
+slug: 46
+---
+
+I was never a particularly heavy [Twitter] user, but the recent drama has been very distracting. Very much like watching a wreck. This has not been good for my work motivation which has already been a bit low recently. Next week I need to be better at blocking distractions. For now, I've downloaded my twitter snapshot in case I want to poke at the old data, and am looking at tools like [semiphemeral] to clean up my old footprint there.
+
+For this week's [mokumoku], I got frustrated with my site's html and started reworking it from scratch. Previously I had based it on some existing templates, so this is a good chance to better understand how [hugo] handles [lookup order]. Looking at <https://endoflife.date/bootstrap> resulted in me trying bootstrap 5 for this draft. Most of it seems to work ok, but a few minor quirks (like removal of `a` styles from badges) leaves me looking for some minor fixes.
+
+On Saturday, my gaming group finished the first campaign on [Wildermyth]. Now that my group is understanding the game mechanics more, we're really enjoying it. I think the few minor complaints are related to a few rough edges in the multiplayer UX. There are a few times where one of us have clicked **next** by accident which advances it for everyone else. I think an `[ ] I'm Ready` button would probably smooth out that experience.
+
+[bootstrap]: https://endoflife.date/bootstrap
+[hugo]: https://gohugo.io/
+[lookup order]: https://gohugo.io/templates/lookup-order/
+[mokumoku]: /blog/mokumokukai/
+[twitter]: https://twitter.com/kfdm
+[wildermyth]: https://wildermyth.com/
+[semiphemeral]: https://semiphemeral.com
