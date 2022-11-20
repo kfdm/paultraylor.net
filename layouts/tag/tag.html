@@ -17,26 +17,32 @@
 {{ if $projects }}
 <section>
     <h2>Featured Projects</h2>
-    <dl class="row">
+    <table class="table table-sm table-borderless">
+        <tr>
+            <th>Ttitle</th>
+            <th>Status</th>
+            <th>Description</th>
+        </tr>
         {{ range $projects.ByTitle }}
-        <dt class="col-sm-4">
-            {{ partial "section_icon.html" . }}
-            <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-        </dt>
-
-        <dd class="col-sm-8">
-            {{ .Summary }}
-            {{ if .Params.external }}
-            (
-            {{range $index, $link := .Params.external }}
-            <a rel="nofollow" href="{{ $link }}">{{ title $index }}</a>
-            {{ end }}
-            )
-            {{ end }}
-        </dd>
-
+        <tr>
+            <td style="white-space: nowrap;">
+                {{ partial "section_icon.html" . }}
+                <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+            </td>
+            <td style="white-space: nowrap;"><span class="badge badge-secondary">{{.Params.status}}</span></td>
+            <td>
+                {{ .Summary }}
+                {{ if .Params.external }}
+                (
+                {{range $index, $link := .Params.external }}
+                <a rel="nofollow" href="{{ $link }}">{{ title $index }}</a>
+                {{ end }}
+                )
+                {{ end }}
+            </td>
+        </tr>
         {{ end }}
-    </dl>
+    </table>
 </section>
 {{ end }}
 
