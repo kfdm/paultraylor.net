@@ -26,3 +26,4 @@ weight: 1
 [swift]: https://swift.org/
 [time management]: /tags/time-management/
 [mqtt]: /tags/mqtt/
+[6.3]: https://na.finalfantasyxiv.com/endwalker/patch_6_3/
