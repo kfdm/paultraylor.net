@@ -1,4 +1,11 @@
 <dl class="row text-secondary">
+    {{ if .Params.original }}
+    <dt class="col-sm-1">Original</dt>
+    <dd class="col-sm-11">
+        <a href="{{.Params.original}}">{{.Params.original}}</a>
+    </dd>
+    {{ end }}
+
     {{ if .Params.tags }}
     <dt class="col-sm-1">{{ i18n "tags" }}: </dt>
     <dd class="col-sm-11">

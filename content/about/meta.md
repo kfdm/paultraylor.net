@@ -18,6 +18,8 @@ This site is currentul built using [hugo]
 
 <img width="24px" src="/images/section/brainstorm.svg" /> by <https://www.svgrepo.com/svg/99337/idea>
 
+<img width="24px" src="/images/section/share.svg" /> by <https://www.svgrepo.com/svg/361088/comment-discussion>
+
 # Social Icons
 
 <img width="24px" src="/images/logo/email.svg" /> by <https://www.svgrepo.com/svg/14478/email>

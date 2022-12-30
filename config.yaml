@@ -19,6 +19,7 @@ params:
   mainSections:
     - blog
     - week
+    - share
     - project
 
 # https://gohugo.io/content-management/menus/
@@ -31,6 +32,10 @@ menu:
     - identifier: blog
       name: Blog
       url: /blog/
+      weight: 30
+    - identifier: share
+      name: Shares
+      url: /share/
       weight: 30
     - identifier: week
       name: Week Notes
