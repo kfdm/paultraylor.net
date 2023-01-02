@@ -13,6 +13,8 @@ tags:
 A VSCode [extension] for managing a worklog in [hugo].
 Inspired by [Hugo Helper] but with other functions that fit my workflow better.
 
+<!--more-->
+
 ## Commands
 
 - Draft new post
