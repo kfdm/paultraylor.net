@@ -2,3 +2,9 @@
 
 User-agent: *
 Disallow: /nihongo/  # Moved
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
