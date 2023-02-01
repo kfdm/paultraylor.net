@@ -8,3 +8,6 @@ Disallow: /
 
 User-agent: SemrushBot
 Disallow: /
+
+User-agent: Zoominfobot
+Disallow: /
