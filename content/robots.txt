@@ -11,3 +11,6 @@ Disallow: /
 
 User-agent: Zoominfobot
 Disallow: /
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
