@@ -1,6 +1,9 @@
 ---
 title: Winter break and eight years in Japan
-date: "2023-01-05"
+date: '2023-01-05'
+toc: true
+tags:
+  - japan
 ---
 
 ## Eight Years
