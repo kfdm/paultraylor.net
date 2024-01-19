@@ -6,17 +6,42 @@ weight: 10
 toc: true
 ---
 
-# Goals
+Developer with a primary focus on server side code and operations tools, who takes pride in writing clean, easy-to-read, well documented code.
+I endeavor to build tools to provide services to other developers so that they can focus on their own projects with confidence.
+I am also a developer who knows when _not_ to write code and to adopt existing solutions to avoid endlessly reinventing the wheel.
 
-- To build tools that help other people work better and faster
-- To write well documented code that answers questions before they are asked
-- To achieve fluency in the Japanese Language
+- Japan Permanent Resident
+- [JLPT N2](https://www.jlpt.jp/e/about/levelsummary.html)
 
 # Work History
 
 ## [LINE Fukuoka](https://linefukuoka.co.jp/)
 
 **May 2016 - Current**
+
+### Server Monitoring as a Service
+
+Built [Promgen](https://github.com/line/promgen), a managed Prometheus and Thanos monitoring solution. Allows developers to configure their monitoring targets and alerts from a web UI, so that they can get simple, easy to use monitoring for their services.
+Monitoring over 80,000 targets and processes 150 million time series.
+
+#### Presentations
+
+- [Using Prometheus to Provide Large Scale Server Monitoring](https://linedevday.linecorp.com/2020/en/speakers/268/)
+
+#### Tools Used
+
+- [SaltStack](https://docs.saltproject.io/)
+- [Prometheus](https://prometheus.io/)
+- [Thanos](https://thanos.io/)
+
+### Task management tools
+
+Developed internal tools for connecting Slack chats to Jira bug tracker to facilitate better tracking of user requests.
+
+### Tools Used
+
+- [Django]
+- Atlassian JIRA
 
 ## [Upsight](http://www.upsight.com)
 
