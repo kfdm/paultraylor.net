@@ -16,14 +16,18 @@ What I am up to [now](https://nownownow.com/).
 
 - Learning [Swift] as a hobby to make some personal iOS apps
 - Learning [Rust] to work on some small, focused CLI and Server ideas.
+- Updating my [Python] and [Django] projects to `pyproject.toml`.
 - Prototyping tools for [time management], [quantified-self], and [mqtt]
 
 ### Playing
 
-- [Final Fantasy 14](https://na.finalfantasyxiv.com/lodestone/character/39494058/)
-- [Satisfactory](https://www.satisfactorygame.com/)
+- Playing [Final Fantasy 14](https://na.finalfantasyxiv.com/lodestone/character/39494058/)
+  - Slowly working on leveling up alts and clearing areas of side quests while waiting for [Dawntrail]( https://na.finalfantasyxiv.com/dawntrail)
+- Finished [Satisfactory](https://www.satisfactorygame.com/) with my gaming group.
 
+[django]: /tags/django
 [mqtt]: /tags/mqtt
+[python]: /tags/python
 [quantified-self]: /tags/quantified-self
 [rust]: /tags/rust
 [swift]: /tags/swift
