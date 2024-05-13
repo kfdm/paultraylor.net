@@ -1,7 +1,29 @@
 {{ define "main" }}
+<table class="table table-sm table-borderless">
+    <tr>
+        <th>Ttitle</th>
+        <th>Status</th>
+        <th>Tags</th>
+        <th>Description</th>
+    </tr>
+    {{ range where .Pages.ByTitle "Params.status" "!=" "retired" }}
+    <tr>
+        <td style="white-space: nowrap;">
+            {{ partial "section_icon.html" . }}
+            <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        </td>
+        <td style="white-space: nowrap;"><span class="badge badge-secondary">{{.Params.status}}</span></td>
+        <td>
+            {{ range .Params.tags }}
+            <a class="badge badge-primary" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+        </td>
+        <td>
+            {{ .Summary }}
+        </td>
+    </tr>
+    {{ end }}
 
-{{ range where .Pages "Params.status" "!=" "retired" }}
-{{ .Render "summary" }}
-{{ end }}
+</table>
 
 {{ end }}
