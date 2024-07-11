@@ -10,7 +10,7 @@ What I am up to [now](https://nownownow.com/).
 ### Currently
 
 - Living in [Fukuoka](https://en.wikipedia.org/wiki/Fukuoka) Japan
-- Working at [LINE Fukuoka](https://linefukuoka.co.jp)
+- Taking a break from work to recharge batteries.
 
 ### Learning and Building
 
@@ -22,8 +22,8 @@ What I am up to [now](https://nownownow.com/).
 ### Playing
 
 - Playing [Final Fantasy 14](https://na.finalfantasyxiv.com/lodestone/character/39494058/)
-  - Slowly working on leveling up alts and clearing areas of side quests while waiting for [Dawntrail]( https://na.finalfantasyxiv.com/dawntrail)
-- Finished [Satisfactory](https://www.satisfactorygame.com/) with my gaming group.
+  - Cleared [Dawntrail](https://na.finalfantasyxiv.com/dawntrail)
+  - Continuing to go through and work through various side quests.
 
 [django]: /tags/django
 [mqtt]: /tags/mqtt
